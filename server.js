@@ -9988,16 +9988,14 @@ this.Terminal = class Terminal {
 
 
 
-// CÓDIGO PARA RENDER
-const express = require("express");
-const app = express();
-app.get("/", (req, res) => res.send("OK"));
-app.listen(process.env.PORT || 3000);
+// CÓDIGO PARA RENDER (sin dependencias externas)
+const http = require("http") ;
+http.createServer((req, res) => { res.writeHead(200) ; res.end("OK") ; }).listen(process.env.PORT || 3000) ;
 
 for (const prop in this) {
   global[prop] = this[prop] ;
 }
 
-global.server_port = process.env.PORT || 3000;
-start();
-console.log("Servidor iniciado en puerto: " + global.server_port);
+global.server_port = process.env.PORT || 3000 ;
+start() ;
+console.log("Servidor iniciado en puerto: " + global.server_port) ;
