@@ -1,0 +1,2161 @@
+<!DOCTYPE html><html><head><title>microVerse_nuestro</title><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui=1"><meta charset="UTF-8"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="description" content=""><link rel="manifest" href="manifest.json"><link rel="icon" type="image/png" href="icon64.png"><link rel="apple-touch-icon" sizes="180x180" href="icon180.png"><link rel="icon" type="image/png" sizes="32x32" href="icon32.png"><link rel="icon" type="image/png" sizes="16x16" href="icon16.png"><style>html,body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow:hidden;
+  font-family: Verdana;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#canvaswrapper {
+  text-align: center ;
+}
+</style><style>@font-face { font-family: "BitCell" ; src: url("fonts/BitCell.ttf") format("truetype"); }</style><script>window.fonts = ["BitCell"]</script></head><body class="noselect custom-cursor" oncontextmenu="return false;"><div id="canvaswrapper"></div><script type="text/javascript">var resources = {"images":[{"file":"animals-horse_left.png","version":10,"size":1113,"properties":{"frames":6,"fps":1}},{"file":"animals-horse_right.png","version":250,"size":1071,"properties":{"frames":5,"fps":1}},{"file":"animals-husky_left.png","version":30,"size":835,"properties":{"frames":2,"fps":3}},{"file":"animals-husky_right.png","version":4,"size":860,"properties":{"frames":2,"fps":5}},{"file":"characters-alien-idle.png","version":120,"size":4555,"properties":{"frames":1,"fps":3}},{"file":"characters-alien-walk_down.png","version":67,"size":13486,"properties":{"frames":4,"fps":5}},{"file":"characters-alien-walk_left.png","version":53,"size":8113,"properties":{"frames":4,"fps":5}},{"file":"characters-alien-walk_right.png","version":39,"size":8129,"properties":{"frames":4,"fps":5}},{"file":"characters-alien-walk_up.png","version":131,"size":6872,"properties":{"frames":4,"fps":5}},{"file":"characters-botbot-fnafxd.png","version":6,"size":315,"properties":{"frames":2,"fps":5}},{"file":"characters-botbot-huevosxd.png","version":36,"size":334,"properties":{"frames":2,"fps":5}},{"file":"characters-botbot-idle.png","version":9,"size":474,"properties":{"frames":1,"fps":5}},{"file":"characters-botbot-image20251229204159.png","version":7,"size":3519,"properties":{"frames":1,"fps":5}},{"file":"characters-botbot-laxante.png","version":23,"size":341,"properties":{"frames":2,"fps":5}},{"file":"characters-botbot-walk_down.png","version":169,"size":991,"properties":{"frames":4,"fps":5}},{"file":"characters-botbot-walk_left.png","version":165,"size":802,"properties":{"frames":4,"fps":5}},{"file":"characters-botbot-walk_right.png","version":184,"size":816,"properties":{"frames":4,"fps":5}},{"file":"characters-botbot-walk_up.png","version":76,"size":1058,"properties":{"frames":4,"fps":5}},{"file":"characters-botbot-xd.png","version":95,"size":330,"properties":{"frames":2,"fps":2}},{"file":"characters-botbot-yosoyperuanoxd.png","version":7,"size":430,"properties":{"frames":2,"fps":5}},{"file":"characters-brainy-azul_derecha.png","version":3,"size":715,"properties":{"frames":4,"fps":8}},{"file":"characters-brainy-bddvf.png","version":4,"size":703,"properties":{"frames":4,"fps":8}},{"file":"characters-brainy-char_003_idle.png","version":2,"size":3399,"properties":{"frames":1,"fps":5}},{"file":"characters-brainy-dbdbb.png","version":22,"size":514,"properties":{"frames":3,"fps":9}},{"file":"characters-brainy-idle.png","version":53,"size":242,"properties":{"frames":1,"fps":5}},{"file":"characters-brainy-kjasndkasndkadsjn.png","version":4,"size":567,"properties":{"frames":2,"fps":1}},{"file":"characters-brainy-rojo_izquierda.png","version":14,"size":534,"properties":{"frames":3,"fps":9}},{"file":"characters-brainy-walk_down.png","version":212,"size":342,"properties":{"frames":2,"fps":3}},{"file":"characters-brainy-walk_left.png","version":129,"size":863,"properties":{"frames":6,"fps":6}},{"file":"characters-brainy-walk_right.png","version":60,"size":821,"properties":{"frames":6,"fps":6}},{"file":"characters-brainy-walk_up.png","version":33,"size":330,"properties":{"frames":2,"fps":3}},{"file":"characters-ghosty-idle.png","version":25,"size":7704,"properties":{"frames":1,"fps":5}},{"file":"characters-ghosty-walk_down.png","version":111,"size":13607,"properties":{"frames":4,"fps":11}},{"file":"characters-ghosty-walk_left.png","version":48,"size":8625,"properties":{"frames":4,"fps":5}},{"file":"characters-ghosty-walk_right.png","version":23,"size":9934,"properties":{"frames":4,"fps":8}},{"file":"characters-ghosty-walk_up.png","version":89,"size":14886,"properties":{"frames":4,"fps":5}},{"file":"characters-piratesam-char_002.png","version":1,"size":2379,"properties":{}},{"file":"characters-piratesam-idle.png","version":31,"size":1661,"properties":{"frames":18,"fps":3}},{"file":"characters-piratesam-idlefsf.png","version":102,"size":466,"properties":{"frames":4,"fps":3}},{"file":"characters-piratesam-uahdhsaih.png","version":5,"size":504,"properties":{"frames":4,"fps":5}},{"file":"characters-piratesam-walk_down.png","version":6,"size":956,"properties":{"frames":4,"fps":5}},{"file":"characters-piratesam-walk_downbjhbi.png","version":28,"size":504,"properties":{"frames":4,"fps":5}},{"file":"characters-piratesam-walk_left.png","version":6,"size":840,"properties":{"frames":4,"fps":4}},{"file":"characters-piratesam-walk_right.png","version":6,"size":747,"properties":{"frames":4,"fps":5}},{"file":"characters-piratesam-walk_rightssds.png","version":5,"size":504,"properties":{"frames":4,"fps":5}},{"file":"characters-piratesam-walk_up.png","version":9,"size":871,"properties":{"frames":4,"fps":5}},{"file":"characters-piratesam-xddd.png","version":47,"size":507,"properties":{"frames":4,"fps":5}},{"file":"characters-sophie-idle.png","version":16,"size":2590,"properties":{"frames":1,"fps":5}},{"file":"characters-sophie-pinguinonuevo.png","version":8,"size":95044,"properties":{"frames":1,"fps":5}},{"file":"characters-sophie-walk_down.png","version":8,"size":5615,"properties":{"frames":3,"fps":5}},{"file":"characters-sophie-walk_left.png","version":44,"size":5093,"properties":{"frames":3,"fps":5}},{"file":"characters-sophie-walk_right.png","version":74,"size":8424,"properties":{"frames":4,"fps":5}},{"file":"characters-sophie-walk_up.png","version":38,"size":2888,"properties":{"frames":2,"fps":5}},{"file":"characters-wolfie-asdadsads.png","version":6,"size":599,"properties":{"frames":4,"fps":5}},{"file":"characters-wolfie-idle.png","version":2,"size":1021,"properties":{"frames":4,"fps":5}},{"file":"characters-wolfie-walk_down2.png","version":6,"size":1021,"properties":{"frames":4,"fps":5}},{"file":"characters-wolfie-walk_left.png","version":85,"size":861,"properties":{"frames":4,"fps":10}},{"file":"characters-wolfie-walk_right.png","version":176,"size":814,"properties":{"frames":4,"fps":10}},{"file":"characters-wolfie-walk_up.png","version":28,"size":910,"properties":{"frames":4,"fps":5}},{"file":"icon.png","version":33,"size":1110,"properties":{"frames":1,"fps":5}},{"file":"poster.png","version":2,"size":95276,"properties":{"frames":1,"fps":5}},{"file":"shadow.png","version":45,"size":160,"properties":{"frames":1,"fps":5}},{"file":"sprite.png","version":1,"size":112,"properties":{"frames":1,"fps":5}},{"file":"tiles-big_tree.png","version":49,"size":912,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-carusal.png","version":375,"size":6979,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-estatua.png","version":63,"size":269,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-house1.png","version":169,"size":1085,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-house2.png","version":78,"size":2225,"properties":{"frames":5,"fps":5}},{"file":"tiles-buildings-house3.png","version":136,"size":1542,"properties":{"frames":4,"fps":3}},{"file":"tiles-buildings-house4.png","version":116,"size":3952,"properties":{"frames":6,"fps":2}},{"file":"tiles-buildings-mvtardis1.png","version":238,"size":1337,"properties":{"frames":2,"fps":1}},{"file":"tiles-buildings-phonebooth.png","version":48,"size":1218,"properties":{"frames":2,"fps":5}},{"file":"tiles-buildings-ruin1.png","version":150,"size":639,"properties":{"frames":8,"fps":1}},{"file":"tiles-buildings-ruin2.png","version":95,"size":700,"properties":{"frames":1,"fps":1}},{"file":"tiles-buildings-ruin3.png","version":86,"size":1897,"properties":{"frames":4,"fps":4}},{"file":"tiles-buildings-shed1.png","version":75,"size":2145,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-shed2.png","version":18,"size":3199,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-stonehenge1.png","version":97,"size":673,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-stonehenge2.png","version":61,"size":576,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-stonehenge3.png","version":56,"size":677,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-stonehenge_tbar.png","version":85,"size":729,"properties":{"frames":1,"fps":5}},{"file":"tiles-buildings-tardis_sand.png","version":66,"size":1245,"properties":{"frames":2,"fps":5}},{"file":"tiles-cactus1.png","version":54,"size":520,"properties":{"frames":1,"fps":5}},{"file":"tiles-cactus2.png","version":129,"size":791,"properties":{"frames":1,"fps":5}},{"file":"tiles-fir_tree1.png","version":178,"size":1467,"properties":{"frames":4,"fps":3}},{"file":"tiles-furniture-alienstones1.png","version":220,"size":2727,"properties":{"frames":4,"fps":5}},{"file":"tiles-furniture-alientank2.png","version":284,"size":5454,"properties":{"frames":4,"fps":2}},{"file":"tiles-furniture-arrow_down.png","version":19,"size":226,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-arrow_left.png","version":4,"size":220,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-arrow_right.png","version":3,"size":221,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-arrow_up.png","version":24,"size":230,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-bed1.png","version":11,"size":150,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-bookshelf1.png","version":36,"size":311,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-chair.png","version":9,"size":148,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-door1.png","version":11,"size":191,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-exitsquare.png","version":5,"size":148,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-money1.png","version":2,"size":843,"properties":{"frames":14,"fps":5}},{"file":"tiles-furniture-painting1.png","version":3,"size":1352,"properties":{"frames":18,"fps":5}},{"file":"tiles-furniture-painting2.png","version":44,"size":436,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-phone2.png","version":21,"size":224,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-sprite.png","version":68,"size":997,"properties":{"frames":1,"fps":5}},{"file":"tiles-furniture-tardiscontrol.png","version":154,"size":7885,"properties":{"frames":15,"fps":5}},{"file":"tiles-furniture-tinkersink.png","version":1,"size":267,"properties":{}},{"file":"tiles-furniture-transportbeam.png","version":2,"size":10141,"properties":{"frames":8,"fps":5}},{"file":"tiles-furniture-vase1.png","version":16,"size":386,"properties":{"frames":8,"fps":1}},{"file":"tiles-furniture-worthy1.png","version":2,"size":1025,"properties":{"frames":15,"fps":5}},{"file":"tiles-mountain1.png","version":113,"size":701,"properties":{"frames":1,"fps":5}},{"file":"tiles-redapple_tree.png","version":104,"size":2201,"properties":{"frames":6,"fps":1}},{"file":"tiles-shedstuff1.png","version":1,"size":781,"properties":{}},{"file":"tiles-snowymountain1.png","version":56,"size":4524,"properties":{"frames":12,"fps":1}},{"file":"tiles-vehicles-boat1-left.png","version":2,"size":1798,"properties":{"frames":3,"fps":5}},{"file":"tiles-vehicles-boat1-right.png","version":2,"size":1945,"properties":{"frames":3,"fps":5}},{"file":"tiles-vehicles-boat2-left.png","version":16,"size":336,"properties":{"frames":2,"fps":3}},{"file":"tiles-vehicles-boat2-right.png","version":20,"size":327,"properties":{"frames":2,"fps":3}},{"file":"tiles-vehicles-pirate1-pirate_left.png","version":12,"size":764,"properties":{"frames":2,"fps":2}},{"file":"tiles-vehicles-pirate1-pirate_right.png","version":13,"size":773,"properties":{"frames":2,"fps":2}},{"file":"tiles-vehicles-wagon1.png","version":97,"size":656,"properties":{"frames":1,"fps":5}},{"file":"tiles-vehicles-wagon1_road.png","version":3,"size":764,"properties":{"frames":1,"fps":5}},{"file":"tiles-vehicles-wagon1_trsp.png","version":5,"size":662,"properties":{"frames":1,"fps":5}},{"file":"tiles-vehicles-wagon2.png","version":5,"size":642,"properties":{"frames":1,"fps":5}},{"file":"tiles-vehicles-wagon2_road.png","version":2,"size":756,"properties":{"frames":1,"fps":5}},{"file":"tiles-vehicles-wagon2_trsp.png","version":34,"size":654,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-alien_site1.png","version":188,"size":11122,"properties":{"frames":20,"fps":5}},{"file":"tiles-walkable-bridge_ew.png","version":107,"size":306,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-cow_skull1.png","version":106,"size":604,"properties":{"frames":11,"fps":1}},{"file":"tiles-walkable-dock1.png","version":118,"size":636,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-floor1.png","version":34,"size":106,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-floor_tile1.png","version":9,"size":584,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-floor_tile2.png","version":40,"size":1809,"properties":{"frames":2,"fps":1}},{"file":"tiles-walkable-grass.png","version":59,"size":1557,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-grass_to_sand.png","version":93,"size":966,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-grass_to_water.png","version":102,"size":2272,"properties":{"frames":2,"fps":1}},{"file":"tiles-walkable-hull_plate1.png","version":173,"size":4780,"properties":{"frames":7,"fps":5}},{"file":"tiles-walkable-insideskull.png","version":5,"size":777,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-path.png","version":185,"size":1668,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-path_ends.png","version":49,"size":783,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-phoneboothfloor.png","version":4,"size":490,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-planks.png","version":26,"size":113,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-ribcage1.png","version":91,"size":354,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-rockpath.png","version":38,"size":467,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-rockpathsand.png","version":15,"size":459,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-rockpathwater.png","version":15,"size":337,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-sand.png","version":49,"size":1111,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-sand_to_water.png","version":131,"size":2259,"properties":{"frames":2,"fps":1}},{"file":"tiles-walkable-shedexits.png","version":1,"size":1188,"properties":{}},{"file":"tiles-walkable-shedtile.png","version":2,"size":96,"properties":{"frames":1,"fps":5}},{"file":"tiles-walkable-tardisfloor.png","version":151,"size":7136,"properties":{"frames":11,"fps":3}},{"file":"tiles-walkable-teleporter1.png","version":2,"size":8542,"properties":{"frames":6,"fps":5}},{"file":"tiles-wall-alienwall1.png","version":76,"size":424,"properties":{"frames":1,"fps":5}},{"file":"tiles-wall-phoneboothwindow.png","version":302,"size":8173,"properties":{"frames":25,"fps":1}},{"file":"tiles-wall-sandwall.png","version":8,"size":743,"properties":{"frames":1,"fps":5}},{"file":"tiles-wall-shed1.png","version":9,"size":1014,"properties":{"frames":1,"fps":5}},{"file":"tiles-wall-todntink.png","version":12,"size":1687,"properties":{"frames":4,"fps":5}},{"file":"tiles-wall-wall_brick.png","version":15,"size":239,"properties":{"frames":1,"fps":5}},{"file":"tiles-wall-wall_brick2.png","version":9,"size":452,"properties":{"frames":1,"fps":5}},{"file":"tiles-wall-wall_stone.png","version":17,"size":318,"properties":{"frames":1,"fps":5}},{"file":"tiles-wall-wall_stone_top.png","version":17,"size":463,"properties":{"frames":1,"fps":5}},{"file":"tiles-wall-wall_tardis.png","version":16,"size":669,"properties":{"frames":1,"fps":5}},{"file":"tiles-wip.png","version":4,"size":148,"properties":{"frames":1,"fps":5}},{"file":"ui-chatting.png","version":31,"size":311,"properties":{"frames":3,"fps":3}},{"file":"ui-emotes-blank.png","version":6,"size":207,"properties":{"frames":1,"fps":5}},{"file":"ui-emotes-face-angry.png","version":6,"size":308,"properties":{"frames":1,"fps":5}},{"file":"ui-emotes-face-dissapointed.png","version":8,"size":302,"properties":{"frames":1,"fps":5}},{"file":"ui-emotes-face-evil.png","version":4,"size":306,"properties":{"frames":1,"fps":5}},{"file":"ui-emotes-face-happy.png","version":40,"size":298,"properties":{"frames":1,"fps":5}},{"file":"ui-emotes-face-neutral.png","version":5,"size":297,"properties":{"frames":1,"fps":5}},{"file":"ui-emotes-face-sad.png","version":5,"size":297,"properties":{"frames":1,"fps":5}},{"file":"ui-emotes-face-shy.png","version":17,"size":359,"properties":{"frames":1,"fps":5}},{"file":"ui-emotes-face-toungeside.png","version":22,"size":322,"properties":{"frames":1,"fps":5}},{"file":"ui-energy.png","version":81,"size":215,"properties":{"frames":1,"fps":5}},{"file":"ui-inventory.png","version":11,"size":124,"properties":{"frames":1,"fps":5}},{"file":"ui-items-thehammer.png","version":2,"size":1025,"properties":{"frames":15,"fps":5}},{"file":"ui-marker.png","version":17,"size":184,"properties":{"frames":4,"fps":7}},{"file":"ui-menu-emoji.png","version":47,"size":254,"properties":{"frames":1,"fps":5}},{"file":"ui-menu-keybinds.png","version":18,"size":213,"properties":{"frames":1,"fps":5}},{"file":"ui-menu-language.png","version":79,"size":273,"properties":{"frames":1,"fps":5}},{"file":"ui-menu-menu.png","version":58,"size":247,"properties":{"frames":2,"fps":3}},{"file":"ui-menu-options.png","version":35,"size":278,"properties":{"frames":1,"fps":5}},{"file":"ui-status-exausted.png","version":38,"size":201,"properties":{"frames":1,"fps":5}}],"assets":[{"file":"addjson-characters.json","version":1,"size":2,"properties":{}}],"maps":{"alienbase1/base":"{\"width\":32,\"height\":32,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-alienwall1:2,1\",\"tiles-wall-alienwall1:0,1\",\"tiles-wall-alienwall1:1,1\",\"tiles-walkable-hull_plate1:0,3\",\"tiles-walkable-hull_plate1:1,2\",\"tiles-walkable-hull_plate1:2,2\",\"tiles-walkable-hull_plate1:3,2\",\"tiles-walkable-hull_plate1:0,2\",\"tiles-walkable-hull_plate1:1,1\",\"tiles-walkable-hull_plate1:2,1\",\"tiles-walkable-hull_plate1:3,1\",\"tiles-walkable-hull_plate1:0,1\",\"tiles-walkable-hull_plate1:1,0\",\"tiles-walkable-hull_plate1:2,0\",\"tiles-walkable-hull_plate1:3,0\",\"tiles-walkable-hull_plate1:0,0\",\"tiles-walkable-hull_plate1:1,3\",\"tiles-walkable-hull_plate1:2,3\",\"tiles-walkable-hull_plate1:3,3\",\"tiles-wall-alienwall1:0,0\",\"tiles-wall-alienwall1:1,0\",\"tiles-wall-alienwall1:2,0\",\"tiles-furniture-alientank2:0,3\",\"tiles-furniture-alientank2:1,3\",\"tiles-furniture-alientank2:2,3\",\"tiles-furniture-alientank2:3,3\",\"tiles-furniture-alientank2:0,2\",\"tiles-furniture-alientank2:1,2\",\"tiles-furniture-alientank2:2,2\",\"tiles-furniture-alientank2:3,2\"],\"data\":[1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,4,2,2,3,1,2,2,0,0,0,0,0,0,0,0,0,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,2,0,0,0,0,0,0,0,0,0,1,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,2,0,0,1,2,3,1,2,3,1,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,2,0,0,1,14,15,16,13,14,2,1,17,18,19,4,17,18,19,4,17,18,19,2,3,1,2,3,1,18,19,4,17,2,0,0,1,18,19,4,17,18,2,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,2,0,0,1,6,7,8,5,6,2,1,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,2,0,0,1,10,11,12,9,10,2,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,2,0,0,1,14,15,16,13,14,2,1,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,2,0,0,1,18,19,4,17,18,2,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,2,0,0,1,6,7,8,5,6,2,2,3,1,2,3,1,2,3,1,9,10,11,12,9,10,11,12,9,10,11,12,9,2,0,0,1,10,11,12,9,10,2,20,21,22,20,21,22,20,21,1,13,14,15,16,13,14,15,16,13,14,15,16,13,2,0,0,1,14,15,16,13,14,2,0,0,0,0,0,0,0,0,1,17,18,19,4,17,18,19,4,17,18,19,4,17,2,0,0,1,18,19,4,17,18,2,0,0,0,0,0,0,0,0,1,5,6,7,8,5,6,7,8,5,6,7,8,5,2,0,0,1,6,7,8,5,6,2,0,0,0,0,0,0,0,0,1,9,10,11,12,9,23,24,25,26,10,11,12,9,2,0,0,1,10,11,12,9,10,2,0,0,0,0,0,0,0,0,1,13,14,15,16,13,27,28,29,30,14,15,16,13,2,3,1,2,14,15,16,13,14,2,0,0,0,0,0,0,0,0,1,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,2,0,0,0,0,0,0,0,0,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,2,2,3,1,2,3,1,2,3,1,9,10,11,2,3,1,2,3,1,2,3,1,9,10,11,12,9,10,11,12,9,10,2,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,2,1,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,2,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,2,1,9,10,11,23,24,25,26,4,17,18,19,12,9,10,11,12,9,10,11,12,9,10,11,23,24,25,26,12,9,10,2,1,13,14,15,27,28,29,30,8,5,6,7,16,13,14,15,16,13,14,15,16,13,14,15,27,28,29,30,16,13,14,2,1,17,18,19,4,17,18,19,12,9,10,2,2,3,1,2,3,1,2,3,1,17,18,19,4,17,18,19,4,17,18,2,1,5,6,7,8,5,6,7,16,13,14,2,20,21,22,20,21,22,20,21,1,5,6,7,8,5,6,7,8,5,6,2,1,9,10,11,12,9,10,11,12,9,10,2,0,0,0,0,0,0,0,0,1,9,10,11,12,9,10,11,12,9,10,2,1,13,14,15,16,13,14,15,16,13,14,2,0,0,0,0,0,0,0,0,1,13,14,15,16,13,14,15,16,13,14,2,1,17,18,19,4,17,18,19,4,17,18,2,0,0,0,0,0,0,0,0,1,17,18,19,4,17,18,19,4,17,18,2,1,5,6,7,8,5,6,7,8,5,6,2,0,0,0,0,0,0,0,0,1,5,6,7,8,5,6,7,8,5,6,2,2,3,1,2,3,1,2,3,1,2,3,1,0,0,0,0,0,0,0,0,2,3,1,2,3,1,2,3,1,2,3,1,20,21,22,20,21,22,20,21,22,20,21,22,0,0,0,0,0,0,0,0,20,21,22,20,21,22,20,21,22,20,21,22]}","alienbase1/top":"{\"width\":32,\"height\":32,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-exitsquare\",\"tiles-wall-alienwall1:0,0\",\"tiles-wall-alienwall1:1,0\",\"tiles-wall-alienwall1:2,0\",\"tiles-furniture-vase1\",\"tiles-furniture-alienstones1:0,3\",\"tiles-furniture-alienstones1:1,3\",\"tiles-furniture-alienstones1:2,3\",\"tiles-furniture-alienstones1:0,2\",\"tiles-furniture-alienstones1:1,2\",\"tiles-furniture-alienstones1:2,2\",\"tiles-furniture-alienstones1:0,1\",\"tiles-furniture-alienstones1:1,1\",\"tiles-furniture-alienstones1:2,1\",\"tiles-furniture-alienstones1:0,0\",\"tiles-furniture-alienstones1:1,0\",\"tiles-furniture-alienstones1:2,0\",\"tiles-furniture-alientank2:0,1\",\"tiles-furniture-alientank2:1,1\",\"tiles-furniture-alientank2:2,1\",\"tiles-furniture-alientank2:3,1\",\"tiles-furniture-alientank2:0,0\",\"tiles-furniture-alientank2:1,0\",\"tiles-furniture-alientank2:2,0\",\"tiles-furniture-alientank2:3,0\",\"tiles-furniture-worthy1\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,2,3,4,2,3,4,2,3,4,2,3,4,0,3,4,2,3,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,3,4,0,0,0,0,6,7,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,8,0,0,0,0,0,9,10,11,0,0,0,0,0,0,2,3,4,2,3,4,0,0,0,0,0,0,0,0,0,9,10,11,0,0,0,0,0,12,13,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,13,14,0,0,0,0,0,15,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,19,20,21,0,0,0,0,2,3,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,23,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,2,3,4,2,3,4,0,0,0,2,3,4,2,3,4,2,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,19,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,19,20,21,0,0,0,0,0,0,0,0,22,23,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,23,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","alienbase2/base":"{\"width\":20,\"height\":20,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-alienwall1:2,1\",\"tiles-wall-alienwall1:0,1\",\"tiles-wall-alienwall1:1,1\",\"tiles-walkable-hull_plate1:1,3\",\"tiles-walkable-hull_plate1:1,2\",\"tiles-walkable-hull_plate1:2,2\",\"tiles-walkable-hull_plate1:3,2\",\"tiles-walkable-hull_plate1:0,2\",\"tiles-walkable-hull_plate1:1,1\",\"tiles-walkable-hull_plate1:2,1\",\"tiles-walkable-hull_plate1:3,1\",\"tiles-walkable-hull_plate1:0,1\",\"tiles-walkable-hull_plate1:1,0\",\"tiles-walkable-hull_plate1:2,0\",\"tiles-walkable-hull_plate1:3,0\",\"tiles-walkable-hull_plate1:0,0\",\"tiles-walkable-hull_plate1:2,3\",\"tiles-walkable-hull_plate1:3,3\",\"tiles-walkable-hull_plate1:0,3\",\"tiles-furniture-alientank2:0,3\",\"tiles-furniture-alientank2:1,3\",\"tiles-furniture-alientank2:2,3\",\"tiles-furniture-alientank2:3,3\",\"tiles-furniture-alientank2:0,2\",\"tiles-furniture-alientank2:1,2\",\"tiles-furniture-alientank2:2,2\",\"tiles-furniture-alientank2:3,2\",\"tiles-wall-alienwall1:0,0\",\"tiles-wall-alienwall1:1,0\",\"tiles-wall-alienwall1:2,0\"],\"data\":[1,2,3,1,2,3,1,2,3,4,2,3,1,2,3,1,2,3,1,2,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,2,1,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,2,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,2,1,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,2,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,2,1,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,2,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,2,1,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,2,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,2,1,9,10,11,20,21,22,23,12,9,10,11,12,9,10,11,12,9,10,2,1,13,14,15,24,25,26,27,16,13,14,15,16,13,14,15,16,13,14,2,1,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,2,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,2,1,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,2,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,2,1,4,17,18,19,4,17,18,19,4,17,18,19,4,17,18,19,4,17,2,1,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,2,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,28,29,30,28,29,30,28,29,30,28,29,30,28,29,30,28,29,30,28,29]}","alienbase2/top":"{\"width\":20,\"height\":20,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-exitsquare\",\"tiles-wall-alienwall1:0,0\",\"tiles-wall-alienwall1:1,0\",\"tiles-wall-alienwall1:2,0\",\"tiles-furniture-vase1\",\"tiles-furniture-alienstones1:0,3\",\"tiles-furniture-alienstones1:1,3\",\"tiles-furniture-alienstones1:2,3\",\"tiles-furniture-alienstones1:0,2\",\"tiles-furniture-alienstones1:1,2\",\"tiles-furniture-alienstones1:2,2\",\"tiles-furniture-alienstones1:0,1\",\"tiles-furniture-alienstones1:1,1\",\"tiles-furniture-alienstones1:2,1\",\"tiles-furniture-alienstones1:0,0\",\"tiles-furniture-alienstones1:1,0\",\"tiles-furniture-alienstones1:2,0\",\"tiles-furniture-painting2\",\"tiles-furniture-painting1\",\"tiles-furniture-worthy1\",\"tiles-furniture-alientank2:0,1\",\"tiles-furniture-alientank2:1,1\",\"tiles-furniture-alientank2:2,1\",\"tiles-furniture-alientank2:3,1\",\"tiles-furniture-alientank2:0,0\",\"tiles-furniture-alientank2:1,0\",\"tiles-furniture-alientank2:2,0\",\"tiles-furniture-alientank2:3,0\",\"tiles-furniture-chair\"],\"data\":[0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,3,4,2,3,4,2,3,0,2,3,4,2,3,4,2,3,4,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,13,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,2,3,4,2,3,4,2,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,22,23,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,27,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","cowskull1/base":"{\"width\":12,\"height\":12,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-sandwall:0,0\",\"tiles-wall-sandwall:1,0\",\"tiles-wall-sandwall:2,0\",\"tiles-walkable-insideskull:1,2\",\"tiles-walkable-insideskull:2,2\",\"tiles-walkable-insideskull:3,2\",\"tiles-walkable-insideskull:0,2\",\"tiles-buildings-tardis_sand:0,3\",\"tiles-buildings-tardis_sand:1,3\",\"tiles-buildings-tardis_sand:2,3\",\"tiles-walkable-insideskull:1,1\",\"tiles-walkable-insideskull:2,1\",\"tiles-walkable-insideskull:3,1\",\"tiles-walkable-insideskull:0,1\",\"tiles-walkable-insideskull:1,0\",\"tiles-walkable-insideskull:2,0\",\"tiles-walkable-insideskull:3,0\",\"tiles-walkable-insideskull:0,0\",\"tiles-walkable-insideskull:1,3\",\"tiles-walkable-insideskull:2,3\",\"tiles-walkable-insideskull:3,3\",\"tiles-walkable-insideskull:0,3\"],\"data\":[1,2,3,1,2,3,1,2,3,1,2,3,1,4,5,6,7,4,5,6,8,9,10,3,1,11,12,13,14,11,12,13,14,11,12,3,1,15,16,17,18,15,16,17,18,15,16,3,1,19,20,21,22,19,20,21,22,19,20,3,1,4,5,6,7,4,5,6,7,4,5,3,1,11,12,13,14,11,12,13,14,11,12,3,1,15,16,17,18,15,16,17,18,15,16,3,1,19,20,21,22,19,20,21,22,19,20,3,1,4,5,6,7,4,5,6,7,4,5,3,1,11,12,13,14,11,12,13,14,11,12,3,1,2,3,1,2,3,1,2,3,1,2,3]}","cowskull1/top":"{\"width\":12,\"height\":12,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-sprite:0,2\",\"tiles-furniture-sprite:1,2\",\"tiles-furniture-sprite:2,2\",\"tiles-furniture-sprite:2,0\",\"tiles-furniture-sprite:0,0\",\"tiles-furniture-sprite:1,0\",\"tiles-furniture-sprite:1,1\",\"tiles-furniture-sprite:0,1\",\"tiles-furniture-sprite:2,1\",\"tiles-furniture-exitsquare\",\"tiles-buildings-tardis_sand:0,2\",\"tiles-buildings-tardis_sand:1,2\",\"tiles-buildings-tardis_sand:2,2\",\"tiles-buildings-tardis_sand:0,1\",\"tiles-buildings-tardis_sand:1,1\",\"tiles-buildings-tardis_sand:2,1\",\"tiles-buildings-tardis_sand:0,0\",\"tiles-buildings-tardis_sand:1,0\",\"tiles-buildings-tardis_sand:2,0\",\"tiles-furniture-alienstones1:0,3\",\"tiles-furniture-alienstones1:1,3\",\"tiles-furniture-alienstones1:2,3\",\"tiles-furniture-alienstones1:0,2\",\"tiles-furniture-alienstones1:1,2\",\"tiles-furniture-alienstones1:2,2\",\"tiles-furniture-alienstones1:0,1\",\"tiles-furniture-alienstones1:1,1\",\"tiles-furniture-alienstones1:2,1\",\"tiles-furniture-alienstones1:0,0\",\"tiles-furniture-alienstones1:1,0\",\"tiles-furniture-alienstones1:2,0\"],\"data\":[1,2,3,4,5,6,4,5,6,4,3,7,8,7,9,3,1,2,3,1,8,7,9,6,5,6,4,9,8,10,9,1,11,12,13,2,2,1,2,3,5,0,4,8,14,15,16,7,7,8,7,9,0,0,0,5,17,18,19,6,1,2,3,0,0,0,0,0,2,1,2,3,1,2,3,0,20,21,22,0,0,8,7,9,8,7,9,7,23,24,25,0,2,5,1,2,1,2,3,2,26,27,28,0,7,9,8,7,8,7,1,2,29,30,31,1,2,3,5,6,5,6,8,7,9,9,5,8,7,9,7,9,7,9,5,6,4,4,3,5,6,4,6,4]}","desert_town/base":"{\"width\":20,\"height\":20,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-walkable-grass_to_sand:4,2\",\"tiles-walkable-grass_to_sand:0,2\",\"tiles-walkable-grass_to_sand:1,2\",\"tiles-walkable-grass_to_sand:2,2\",\"tiles-walkable-grass_to_sand:0,1\",\"tiles-walkable-grass:3,2\",\"tiles-walkable-grass:4,2\",\"tiles-walkable-grass:1,3\",\"tiles-walkable-grass_to_sand:2,1\",\"tiles-walkable-grass_to_sand:3,1\",\"tiles-walkable-grass:3,1\",\"tiles-walkable-grass:4,1\",\"tiles-buildings-house2:0,2\",\"tiles-buildings-house2:1,2\",\"tiles-buildings-house2:2,2\",\"tiles-buildings-house2:0,1\",\"tiles-buildings-house2:1,1\",\"tiles-buildings-house2:2,1\",\"tiles-buildings-house1:0,2\",\"tiles-buildings-house1:1,2\",\"tiles-buildings-house1:2,2\",\"tiles-buildings-house1:0,1\",\"tiles-buildings-house1:1,1\",\"tiles-buildings-house1:2,1\",\"tiles-buildings-house3:0,2\",\"tiles-buildings-house3:1,2\",\"tiles-walkable-grass_to_sand:1,0\",\"tiles-walkable-grass_to_sand:3,0\",\"tiles-buildings-house3:0,1\",\"tiles-buildings-house3:1,1\",\"tiles-walkable-grass:2,0\",\"tiles-walkable-grass_to_sand:0,0\",\"tiles-walkable-grass_to_sand:4,0\",\"tiles-walkable-grass_to_sand:2,0\",\"tiles-walkable-grass_to_sand:4,1\",\"tiles-vehicles-wagon1:0,1\",\"tiles-vehicles-wagon1:1,1\",\"tiles-vehicles-wagon1:2,1\",\"tiles-walkable-grass:1,1\",\"tiles-walkable-grass:1,0\",\"tiles-buildings-house4:0,4\",\"tiles-buildings-house4:1,4\",\"tiles-buildings-house4:2,4\",\"tiles-walkable-grass_to_sand:5,2\",\"tiles-buildings-house4:0,3\",\"tiles-buildings-house4:1,3\",\"tiles-buildings-house4:2,3\"],\"data\":[1,1,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,1,1,5,6,7,6,7,6,7,8,8,8,6,7,6,7,7,7,7,9,2,3,10,11,12,6,7,11,12,13,14,15,11,12,7,12,12,12,12,9,5,6,6,11,12,6,7,11,12,16,17,18,11,12,12,19,20,21,8,9,5,11,11,6,6,7,6,7,6,7,6,7,6,7,7,22,23,24,8,9,5,11,12,11,11,12,6,7,11,12,11,12,6,7,12,6,6,6,7,9,5,11,12,13,14,15,11,12,6,7,25,26,11,12,12,11,11,11,12,9,5,6,7,16,17,18,27,28,11,12,29,30,31,11,12,12,7,7,7,9,5,11,12,6,7,9,1,32,28,6,6,6,7,11,12,12,12,12,12,9,5,11,6,7,12,9,1,1,5,11,11,11,12,6,6,11,12,11,12,9,5,11,11,12,33,34,1,1,5,8,13,14,15,11,11,6,6,11,12,9,5,6,6,7,9,1,2,3,10,8,16,17,18,11,12,11,11,11,12,9,5,11,6,7,35,3,10,6,7,7,6,6,6,6,6,7,36,37,38,9,5,6,11,8,8,8,6,7,12,12,11,11,11,11,11,6,7,39,33,34,5,11,12,19,20,21,6,7,6,7,40,8,41,42,43,11,12,33,34,44,5,11,12,22,23,24,11,12,6,6,7,8,45,46,47,11,12,9,44,44,5,11,12,7,6,6,7,6,7,7,7,33,27,27,28,33,27,34,44,44,5,11,12,12,11,11,12,7,7,12,12,9,44,44,32,34,44,44,44,44,5,11,12,12,12,12,12,12,12,33,27,34,44,44,44,44,44,44,44,44,32,27,27,27,27,27,27,27,27,34,44,44,44,44,44,44,44,44,44,44]}","desert_town/top":"{\"width\":20,\"height\":20,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-buildings-house2:0,1\",\"tiles-buildings-house2:1,1\",\"tiles-buildings-house2:2,1\",\"tiles-buildings-house2:0,0\",\"tiles-buildings-house2:1,0\",\"tiles-buildings-house2:2,0\",\"tiles-buildings-house1:0,1\",\"tiles-buildings-house1:1,1\",\"tiles-buildings-house1:2,1\",\"tiles-buildings-house1:0,0\",\"tiles-buildings-house1:1,0\",\"tiles-buildings-house1:2,0\",\"tiles-buildings-house3:2,2\",\"tiles-buildings-house3:0,1\",\"tiles-buildings-house3:1,1\",\"tiles-buildings-house3:2,1\",\"tiles-buildings-house3:0,0\",\"tiles-buildings-house3:1,0\",\"tiles-buildings-house3:2,0\",\"tiles-vehicles-wagon1_trsp:0,0\",\"tiles-vehicles-wagon1_trsp:1,0\",\"tiles-vehicles-wagon1_trsp:2,0\",\"tiles-buildings-house4:0,3\",\"tiles-buildings-house4:1,3\",\"tiles-buildings-house4:2,3\",\"tiles-buildings-house4:0,2\",\"tiles-buildings-house4:1,2\",\"tiles-buildings-house4:2,2\",\"tiles-buildings-house4:0,1\",\"tiles-buildings-house4:1,1\",\"tiles-buildings-house4:2,1\",\"tiles-buildings-house4:0,0\",\"tiles-buildings-house4:1,0\",\"tiles-buildings-house4:2,0\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,5,6,0,0,0,7,8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,11,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,1,2,3,0,0,0,0,14,15,16,0,0,0,0,0,0,0,0,0,0,4,5,6,0,0,0,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,21,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,9,0,0,0,0,0,0,23,24,25,0,0,0,0,0,0,0,0,10,11,12,0,0,0,0,0,0,26,27,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,33,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","house1/base":"{\"width\":9,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-wall_brick:1,0\",\"tiles-wall-wall_brick:0,0\",\"tiles-walkable-planks\",\"tiles-wall-wall_brick:2,0\",\"tiles-furniture-tardiscontrol:0,3\",\"tiles-furniture-tardiscontrol:1,3\",\"tiles-furniture-tardiscontrol:2,3\",\"tiles-furniture-tardiscontrol:3,3\",\"tiles-furniture-tardiscontrol:0,2\",\"tiles-furniture-tardiscontrol:1,2\",\"tiles-furniture-tardiscontrol:2,2\",\"tiles-furniture-tardiscontrol:3,2\"],\"data\":[1,1,2,2,3,1,2,1,4,2,3,3,3,3,3,3,3,1,4,3,3,3,3,3,3,3,2,2,3,3,3,5,6,7,8,2,1,3,3,3,9,10,11,12,2,2,3,3,3,3,3,3,3,4,2,2,1,1,2,2,4,2,2]}","house1/top":"{\"width\":9,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-door1\",\"tiles-walkable-rockpathwater:0,2\",\"tiles-furniture-bed1\",\"tiles-walkable-rockpathwater:0,1\",\"tiles-wall-shed1:1,1\",\"tiles-walkable-rockpathwater:0,0\",\"tiles-furniture-tardiscontrol:0,1\",\"tiles-furniture-tardiscontrol:1,1\",\"tiles-furniture-tardiscontrol:2,1\",\"tiles-furniture-tardiscontrol:3,1\",\"tiles-furniture-painting1\",\"tiles-furniture-painting2\",\"tiles-furniture-tardiscontrol:0,0\",\"tiles-furniture-tardiscontrol:1,0\",\"tiles-furniture-tardiscontrol:2,0\",\"tiles-furniture-tardiscontrol:3,0\"],\"data\":[0,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,3,0,0,0,4,0,0,0,5,0,0,0,0,6,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,9,10,0,0,0,11,12,13,14,15,16,0]}","house2/base":"{\"width\":14,\"height\":12,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-wall_stone:0,0\",\"tiles-walkable-floor_tile1:0,0\",\"tiles-walkable-floor_tile1:0,2\",\"tiles-walkable-floor_tile1:1,2\",\"tiles-walkable-floor_tile1:2,2\",\"tiles-walkable-floor_tile1:0,1\",\"tiles-walkable-floor_tile1:1,1\",\"tiles-walkable-floor_tile1:2,1\",\"tiles-walkable-floor_tile1:1,0\",\"tiles-walkable-floor_tile1:2,0\",\"tiles-walkable-planks\",\"tiles-walkable-floor_tile1:3,1\",\"tiles-walkable-floor_tile1:4,1\",\"tiles-walkable-floor_tile1:3,0\",\"tiles-walkable-floor_tile1:4,0\"],\"data\":[1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,3,4,5,3,4,5,3,4,5,3,4,5,1,1,6,7,8,6,7,8,6,7,8,6,7,8,1,1,2,9,10,2,9,10,2,9,10,2,9,10,1,1,2,9,10,1,11,11,11,11,1,3,4,5,1,1,3,4,5,1,11,11,11,11,1,6,7,8,1,1,6,7,8,1,11,11,11,11,1,2,9,10,1,1,2,9,10,1,11,11,11,11,1,3,4,5,1,1,3,4,5,1,1,1,1,1,1,6,7,8,1,1,6,7,8,6,7,8,12,13,13,2,9,10,1,1,2,9,10,2,9,10,14,15,15,2,9,10,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]}","house2/top":"{\"width\":14,\"height\":12,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-worthy1\",\"tiles-furniture-vase1\",\"tiles-furniture-painting1\",\"tiles-furniture-chair\",\"tiles-furniture-painting2\",\"tiles-furniture-bed1\",\"tiles-furniture-bookshelf1\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,3,0,0,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0,0,6,0,0,7,0,0,0,0,0,0,0,0,0,3,0,2,0,0,0,0,0,4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","main/base":"{\"width\":64,\"height\":64,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-walkable-grass_to_water:3,2\",\"tiles-vehicles-boat2-left\",\"tiles-walkable-sand_to_water:0,2\",\"tiles-walkable-sand_to_water:1,2\",\"tiles-walkable-sand_to_water:2,2\",\"tiles-walkable-sand:3,3\",\"tiles-walkable-sand_to_water:3,1\",\"tiles-walkable-sand:0,2\",\"tiles-walkable-sand:1,2\",\"tiles-walkable-sand:2,2\",\"tiles-walkable-grass_to_water:0,2\",\"tiles-walkable-grass_to_water:1,2\",\"tiles-walkable-grass_to_water:2,2\",\"tiles-walkable-ribcage1\",\"tiles-walkable-cow_skull1\",\"tiles-walkable-sand:2,1\",\"tiles-walkable-sand_to_water:4,1\",\"tiles-walkable-rockpathwater:0,2\",\"tiles-walkable-sand_to_water:0,1\",\"tiles-walkable-sand_to_water:1,1\",\"tiles-walkable-sand_to_water:2,1\",\"tiles-walkable-grass_to_water:3,1\",\"tiles-walkable-grass:0,3\",\"tiles-walkable-grass:0,1\",\"tiles-walkable-grass:1,1\",\"tiles-walkable-grass_to_water:4,1\",\"tiles-walkable-sand:2,0\",\"tiles-walkable-rockpathwater:0,1\",\"tiles-walkable-sand_to_water:0,0\",\"tiles-walkable-sand_to_water:1,0\",\"tiles-walkable-sand_to_water:2,0\",\"tiles-walkable-grass:0,2\",\"tiles-walkable-grass:0,0\",\"tiles-walkable-grass:1,0\",\"tiles-walkable-grass:3,3\",\"tiles-walkable-grass_to_sand:2,1\",\"tiles-walkable-sand:1,1\",\"tiles-walkable-grass_to_sand:0,1\",\"tiles-walkable-rockpathwater:0,0\",\"tiles-buildings-ruin3:0,2\",\"tiles-walkable-rockpath:0,2\",\"tiles-buildings-ruin3:2,2\",\"tiles-walkable-sand:0,1\",\"tiles-cactus2:0,2\",\"tiles-cactus2:1,2\",\"tiles-walkable-grass:1,3\",\"tiles-walkable-grass:2,3\",\"tiles-walkable-grass:4,3\",\"tiles-walkable-grass:1,2\",\"tiles-walkable-grass_to_water:0,1\",\"tiles-buildings-ruin3:0,1\",\"tiles-buildings-ruin3:1,1\",\"tiles-buildings-ruin3:2,1\",\"tiles-walkable-grass:2,0\",\"tiles-walkable-grass:1,4\",\"tiles-walkable-sand:0,0\",\"tiles-walkable-sand:1,0\",\"tiles-walkable-grass:4,2\",\"tiles-walkable-grass:2,1\",\"tiles-walkable-grass:3,1\",\"tiles-fir_tree1:0,2\",\"tiles-fir_tree1:1,2\",\"tiles-walkable-grass_to_sand:0,0\",\"tiles-walkable-grass_to_sand:3,0\",\"tiles-walkable-path_ends:1,2\",\"tiles-walkable-grass:4,1\",\"tiles-walkable-grass:3,2\",\"animals-horse_left:0,1\",\"animals-horse_left:1,1\",\"tiles-walkable-grass_to_sand:4,0\",\"tiles-walkable-grass_to_sand:1,0\",\"tiles-walkable-grass_to_sand:2,0\",\"tiles-cactus1:0,2\",\"tiles-cactus1:1,2\",\"tiles-walkable-sand:1,3\",\"tiles-walkable-path:2,3\",\"tiles-walkable-grass:4,0\",\"tiles-redapple_tree:0,2\",\"tiles-redapple_tree:1,2\",\"tiles-walkable-grass_to_water:1,1\",\"tiles-walkable-grass:2,2\",\"tiles-walkable-path_ends:0,1\",\"tiles-walkable-path:1,4\",\"tiles-walkable-path:2,4\",\"tiles-walkable-path:3,2\",\"tiles-walkable-path:2,0\",\"tiles-walkable-path_ends:2,1\",\"tiles-walkable-grass_to_water:0,0\",\"tiles-walkable-grass_to_water:1,0\",\"tiles-walkable-grass_to_water:3,0\",\"tiles-walkable-grass_to_sand:0,2\",\"tiles-walkable-grass_to_sand:1,2\",\"tiles-walkable-grass_to_sand:3,1\",\"tiles-buildings-house3:0,2\",\"tiles-buildings-house3:1,2\",\"tiles-walkable-path:2,1\",\"tiles-buildings-house3:0,1\",\"tiles-buildings-house3:1,1\",\"tiles-walkable-grass_to_sand:2,2\",\"tiles-walkable-grass:3,0\",\"tiles-walkable-grass_to_sand:4,1\",\"tiles-walkable-grass_to_water:4,0\",\"tiles-walkable-grass_to_water:2,1\",\"tiles-walkable-grass:0,4\",\"tiles-walkable-grass:2,4\",\"tiles-walkable-grass:3,4\",\"tiles-walkable-path:0,4\",\"tiles-vehicles-wagon1_road:0,1\",\"tiles-vehicles-wagon1_road:1,1\",\"tiles-vehicles-wagon1_road:2,1\",\"tiles-vehicles-pirate1-pirate_right:0,2\",\"tiles-vehicles-pirate1-pirate_right:1,2\",\"tiles-walkable-path:0,3\",\"tiles-buildings-house4:0,4\",\"tiles-buildings-house4:1,4\",\"tiles-buildings-house4:2,4\",\"tiles-walkable-grass_to_water:2,0\",\"tiles-vehicles-pirate1-pirate_right:0,1\",\"tiles-vehicles-pirate1-pirate_right:1,1\",\"tiles-buildings-house4:0,3\",\"tiles-buildings-house4:1,3\",\"tiles-buildings-house4:2,3\",\"tiles-walkable-dock1:0,2\",\"tiles-walkable-dock1:1,2\",\"tiles-walkable-rockpath:0,1\",\"tiles-vehicles-pirate1-pirate_right:0,0\",\"tiles-vehicles-pirate1-pirate_right:1,0\",\"tiles-walkable-dock1:0,1\",\"tiles-walkable-dock1:1,1\",\"tiles-walkable-rockpath:0,0\",\"tiles-walkable-dock1:0,0\",\"tiles-walkable-dock1:1,0\",\"tiles-walkable-dock1:2,0\",\"tiles-buildings-mvtardis1:0,3\",\"tiles-buildings-mvtardis1:1,3\",\"tiles-buildings-mvtardis1:2,3\",\"tiles-walkable-alien_site1:0,2\",\"tiles-walkable-alien_site1:1,2\",\"tiles-walkable-alien_site1:2,2\",\"tiles-walkable-alien_site1:0,1\",\"tiles-walkable-alien_site1:1,1\",\"tiles-walkable-alien_site1:2,1\",\"tiles-vehicles-boat1-right:0,2\",\"tiles-vehicles-boat1-right:1,2\",\"tiles-vehicles-boat1-right:2,2\",\"tiles-walkable-alien_site1:0,0\",\"tiles-walkable-alien_site1:1,0\",\"tiles-walkable-alien_site1:2,0\",\"tiles-vehicles-boat1-right:0,1\",\"tiles-vehicles-boat1-right:1,1\",\"tiles-vehicles-boat1-right:2,1\",\"tiles-walkable-path:4,0\",\"tiles-vehicles-boat1-right:0,0\",\"tiles-vehicles-boat1-right:1,0\",\"tiles-vehicles-boat1-right:2,0\",\"tiles-walkable-path:1,2\",\"tiles-walkable-path:4,4\",\"tiles-walkable-path:4,3\",\"tiles-vehicles-boat2-right\",\"tiles-walkable-path:0,0\",\"animals-horse_right:0,1\",\"animals-horse_right:1,1\",\"tiles-walkable-path:4,1\",\"tiles-buildings-phonebooth:0,3\",\"tiles-buildings-phonebooth:1,3\",\"tiles-buildings-phonebooth:2,3\",\"tiles-walkable-bridge_ew:1,4\",\"tiles-walkable-path:0,2\",\"tiles-walkable-path:3,0\",\"tiles-walkable-path:0,1\",\"tiles-vehicles-wagon1:0,1\",\"tiles-vehicles-wagon1:1,1\",\"tiles-vehicles-wagon1:2,1\",\"tiles-buildings-house2:0,2\",\"tiles-buildings-house2:1,2\",\"tiles-buildings-house2:2,2\",\"tiles-buildings-house2:0,1\",\"tiles-buildings-house2:1,1\",\"tiles-buildings-house2:2,1\",\"tiles-walkable-bridge_ew:0,0\",\"tiles-walkable-bridge_ew:1,0\",\"tiles-walkable-bridge_ew:2,0\",\"tiles-walkable-path_ends:1,1\",\"tiles-buildings-house1:0,2\",\"tiles-buildings-house1:1,2\",\"tiles-buildings-house1:2,2\",\"tiles-walkable-path_ends:0,0\",\"tiles-walkable-path_ends:1,0\",\"tiles-walkable-path_ends:2,0\",\"tiles-buildings-house1:0,1\",\"tiles-buildings-house1:1,1\",\"tiles-buildings-house1:2,1\",\"tiles-buildings-shed2:2,3\",\"tiles-buildings-shed2:3,3\",\"tiles-buildings-shed1:0,2\",\"tiles-buildings-shed1:1,2\",\"tiles-buildings-shed1:2,2\",\"tiles-buildings-shed1:3,2\",\"tiles-buildings-shed2:0,2\",\"tiles-buildings-shed2:1,2\",\"tiles-buildings-shed2:2,2\",\"tiles-buildings-shed2:3,2\",\"tiles-buildings-shed1:0,1\",\"tiles-buildings-shed1:1,1\",\"tiles-buildings-shed1:2,1\",\"tiles-buildings-shed1:3,1\",\"tiles-buildings-shed2:0,1\",\"tiles-buildings-shed2:1,1\",\"tiles-buildings-shed2:2,1\",\"tiles-buildings-shed2:3,1\",\"tiles-walkable-path:3,1\",\"tiles-buildings-carusal:0,4\",\"tiles-buildings-carusal:1,4\",\"tiles-buildings-carusal:2,4\",\"tiles-buildings-carusal:3,4\",\"tiles-buildings-carusal:4,4\",\"tiles-buildings-ruin1:0,1\",\"tiles-buildings-carusal:0,3\",\"tiles-buildings-carusal:1,3\",\"tiles-buildings-carusal:2,3\",\"tiles-buildings-carusal:3,3\",\"tiles-buildings-carusal:4,3\",\"tiles-walkable-path:1,1\",\"tiles-walkable-path:1,0\",\"tiles-walkable-path:3,4\",\"tiles-buildings-stonehenge_tbar:0,2\",\"tiles-buildings-stonehenge_tbar:1,2\",\"tiles-buildings-stonehenge_tbar:2,2\",\"tiles-buildings-stonehenge_tbar:0,1\",\"tiles-buildings-stonehenge_tbar:1,1\",\"tiles-buildings-stonehenge_tbar:2,1\",\"tiles-buildings-ruin2:0,2\",\"tiles-buildings-ruin2:1,2\",\"tiles-buildings-ruin2:2,2\",\"tiles-buildings-ruin2:0,1\",\"tiles-buildings-ruin2:1,1\",\"tiles-buildings-ruin2:2,1\",\"tiles-walkable-teleporter1:0,2\",\"tiles-walkable-teleporter1:1,2\",\"tiles-walkable-teleporter1:2,2\",\"tiles-buildings-stonehenge1:0,2\",\"tiles-buildings-stonehenge1:1,2\",\"tiles-buildings-stonehenge3:1,2\",\"tiles-buildings-stonehenge3:2,2\",\"tiles-walkable-teleporter1:0,1\",\"tiles-walkable-teleporter1:1,1\",\"tiles-walkable-teleporter1:2,1\",\"tiles-buildings-stonehenge1:0,1\",\"tiles-buildings-stonehenge1:1,1\",\"tiles-buildings-stonehenge1:2,1\",\"tiles-buildings-stonehenge3:0,1\",\"tiles-buildings-stonehenge3:1,1\",\"tiles-buildings-stonehenge3:2,1\",\"tiles-walkable-teleporter1:0,0\",\"tiles-walkable-teleporter1:1,0\",\"tiles-walkable-teleporter1:2,0\",\"tiles-buildings-stonehenge1:1,0\",\"tiles-buildings-stonehenge1:2,0\",\"tiles-snowymountain1:0,2\",\"tiles-snowymountain1:1,2\",\"tiles-snowymountain1:2,2\",\"tiles-mountain1:0,2\",\"tiles-mountain1:1,2\",\"tiles-mountain1:2,2\",\"tiles-buildings-stonehenge2:0,1\",\"tiles-buildings-stonehenge2:1,1\",\"tiles-buildings-stonehenge2:2,1\",\"tiles-big_tree:0,2\",\"tiles-big_tree:1,2\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,3,4,4,4,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,3,7,8,9,10,10,5,0,0,0,0,0,3,4,4,4,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,11,12,12,12,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,7,8,14,10,15,16,17,13,0,0,0,18,19,20,15,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,22,23,23,24,25,26,12,12,12,12,12,13,0,0,0,0,2,0,0,11,7,8,9,10,16,27,27,10,26,13,0,0,28,29,30,30,30,31,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,11,22,23,32,32,33,34,23,23,35,23,24,25,26,12,13,0,0,0,0,11,36,8,9,10,16,27,16,37,16,38,26,13,0,39,0,0,0,0,0,28,0,11,12,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,22,32,32,40,41,42,23,32,34,35,32,33,34,24,25,26,12,12,12,12,22,36,43,44,45,27,10,8,9,10,38,33,26,12,13,0,0,0,0,0,39,11,22,23,46,47,35,48,48,23,32,32,49,0,0,0,0,0,0,0,0,0,0,50,32,24,24,51,52,53,54,24,24,24,24,55,32,33,34,23,24,25,23,23,55,36,56,57,6,37,15,43,14,16,38,33,33,33,26,12,12,12,12,12,12,22,23,32,49,48,48,58,58,32,24,24,25,59,0,0,0,0,0,0,0,0,0,50,24,24,25,59,60,24,25,61,62,33,35,24,24,32,32,32,33,34,32,32,24,36,8,9,6,9,10,56,57,8,63,64,23,23,23,23,23,23,23,23,23,32,32,24,65,59,35,48,66,24,33,33,34,54,35,0,0,0,0,0,0,0,0,50,35,25,59,60,35,33,34,25,59,60,33,67,47,24,24,24,68,69,70,71,71,72,43,37,43,37,16,73,74,75,9,38,32,32,32,32,32,32,32,32,32,23,46,33,76,54,67,58,77,78,79,32,33,34,67,58,0,0,0,0,1,0,0,50,80,59,60,60,67,67,24,25,59,60,60,60,61,62,81,67,24,24,72,43,43,37,56,57,56,8,9,10,57,43,37,38,24,24,24,82,83,83,83,84,83,85,85,85,86,85,85,87,48,34,54,24,25,33,34,54,35,48,0,0,0,0,0,88,89,89,89,90,60,60,67,67,67,35,24,25,59,60,59,60,81,70,8,56,15,8,9,8,8,14,10,16,57,91,92,93,25,59,60,60,94,95,54,96,23,24,25,59,32,49,81,67,58,34,54,33,34,32,49,81,67,58,0,0,0,0,0,0,0,0,18,88,89,89,35,35,60,67,67,67,35,35,24,25,59,36,43,37,16,8,9,43,43,37,16,27,37,38,35,23,46,47,35,48,97,98,54,96,32,33,34,54,24,25,59,60,66,32,32,78,79,24,25,59,35,48,0,0,0,0,0,0,0,0,28,0,0,0,88,89,90,60,60,60,67,67,67,33,24,35,92,92,92,99,37,56,56,57,27,91,92,93,67,32,49,81,67,58,33,48,54,96,24,25,23,46,47,35,48,100,77,33,33,33,34,33,34,54,67,58,0,0,0,1,0,0,2,0,39,0,0,0,0,0,88,89,89,90,60,60,60,67,67,35,35,24,25,101,92,93,33,101,92,93,60,60,23,46,47,35,48,66,47,48,48,96,33,34,32,49,81,67,58,78,79,33,33,33,34,54,81,67,67,67,0,0,0,0,0,0,0,0,11,12,12,12,13,0,0,0,0,88,89,90,60,60,60,67,67,33,34,24,25,23,46,47,23,46,47,35,48,49,81,67,58,77,81,67,58,96,32,49,24,25,59,35,48,34,54,78,79,35,67,25,59,60,60,49,0,0,0,1,0,0,0,11,22,24,25,25,26,13,0,0,0,0,0,88,89,90,60,60,60,67,35,47,34,32,49,81,32,49,81,67,58,25,59,60,66,25,59,60,66,96,24,25,33,34,54,67,58,34,54,33,34,54,60,60,49,49,49,102,0,0,0,0,0,1,0,50,32,33,34,34,25,103,0,0,0,0,0,0,0,88,90,59,60,60,104,35,24,25,55,35,24,25,25,24,55,105,54,100,77,34,54,100,77,96,105,34,54,106,77,81,49,49,67,33,34,54,49,49,49,48,49,103,0,0,0,0,0,0,0,50,24,32,24,33,34,26,13,0,0,0,0,1,0,0,88,90,59,60,60,67,33,24,25,107,83,83,83,83,83,84,108,109,110,84,84,84,84,86,84,84,84,84,87,49,49,60,35,48,49,49,49,49,49,49,49,103,0,0,0,0,0,11,12,22,24,24,25,34,24,25,103,0,0,1,0,0,111,112,0,50,25,59,60,60,35,33,34,113,24,25,114,115,116,35,67,33,33,35,35,67,67,60,60,49,113,113,33,49,49,49,67,58,49,35,41,49,35,48,102,117,0,1,0,0,0,50,23,24,25,33,34,33,33,34,103,0,0,0,0,0,118,119,0,50,80,25,59,60,23,46,47,113,48,34,120,121,122,67,60,35,46,67,67,60,60,102,89,90,123,124,102,89,90,49,49,49,81,67,125,49,67,58,103,0,0,0,0,0,11,22,32,24,25,47,62,46,47,102,117,0,0,0,1,0,126,127,0,88,89,90,59,60,32,49,81,113,58,23,46,47,35,48,48,67,49,60,60,23,102,117,0,88,128,129,117,0,88,90,49,25,59,49,130,49,49,102,117,0,0,0,0,0,50,24,24,24,54,59,32,49,81,103,0,0,0,0,0,0,0,0,0,0,0,88,90,59,24,25,59,113,23,32,49,81,67,58,58,60,49,49,49,102,117,0,1,0,131,132,133,0,0,88,89,90,49,134,135,136,49,103,0,1,0,0,0,0,50,24,137,138,139,60,24,25,59,26,13,0,0,0,0,0,0,1,0,2,0,1,50,25,33,34,54,113,32,49,81,67,58,35,49,49,102,89,89,117,0,0,0,0,0,0,0,0,0,0,0,88,90,49,49,49,102,117,0,0,0,0,0,11,22,24,140,141,142,47,24,25,67,35,26,12,12,13,0,0,0,0,0,0,0,11,22,25,23,47,47,113,24,25,59,60,66,67,49,49,103,0,0,0,0,0,0,1,143,144,145,1,0,0,0,0,50,49,49,49,103,0,0,0,0,0,0,50,24,33,146,147,148,60,33,34,60,81,81,35,35,26,12,13,0,0,0,0,11,22,24,25,32,49,81,113,33,34,54,100,77,60,49,49,103,0,1,0,0,0,1,0,149,150,151,0,0,0,0,0,88,90,49,102,117,0,0,0,0,0,0,50,80,23,24,25,59,60,35,67,60,60,60,67,67,67,35,26,12,12,12,12,22,32,24,25,107,83,83,152,66,47,35,48,33,49,49,49,103,0,0,0,0,0,0,0,153,154,155,0,0,0,0,1,0,50,49,103,0,0,0,0,0,0,0,88,90,32,49,81,67,67,67,89,89,89,60,60,60,33,67,80,35,80,80,33,32,24,47,59,113,34,54,100,77,81,67,58,49,33,49,49,103,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,88,89,117,0,0,0,0,0,0,0,0,50,80,25,59,60,102,117,0,0,0,88,89,89,90,60,60,67,47,67,82,156,84,156,156,86,156,157,24,25,59,60,66,33,33,33,49,36,4,4,4,4,4,5,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0,88,89,89,89,89,117,0,0,0,0,0,0,0,88,89,90,60,60,60,67,35,113,24,25,24,25,158,33,34,54,100,77,49,33,33,49,36,43,14,16,73,74,17,4,4,4,4,4,4,4,4,5,0,0,0,28,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,1,0,0,159,0,0,0,88,89,90,60,60,67,113,33,34,33,34,160,157,24,25,49,49,49,49,49,49,36,43,16,43,43,43,43,43,43,43,43,15,43,43,8,17,4,4,5,39,0,0,0,0,0,0,1,0,0,0,28,0,1,0,0,0,0,0,0,0,0,0,0,0,0,50,25,59,60,113,23,46,47,23,46,158,24,25,47,49,49,49,49,49,101,92,92,92,92,92,92,92,92,92,92,92,92,99,43,43,73,74,17,5,0,0,0,0,0,0,0,0,0,1,39,1,0,0,0,0,0,0,0,0,1,0,0,0,11,22,25,59,60,113,24,161,162,32,49,163,24,25,49,49,24,25,49,24,25,23,23,23,23,23,23,23,23,23,23,23,23,101,92,99,43,43,57,17,5,0,0,0,0,0,0,0,0,0,18,0,1,0,0,0,1,0,0,0,0,1,11,12,22,32,164,165,166,113,23,46,47,35,48,158,23,23,23,23,49,23,23,23,23,34,32,32,32,32,32,32,32,24,25,65,24,25,25,101,92,99,43,8,17,5,0,0,0,0,0,1,0,0,28,0,0,0,1,11,13,167,0,11,12,12,22,23,32,24,24,25,59,113,24,25,25,67,32,168,156,156,156,156,156,156,84,156,156,156,156,156,156,84,156,156,156,156,156,152,35,35,35,35,35,36,43,43,9,21,0,0,0,0,0,0,0,0,39,0,1,11,12,22,80,13,0,50,49,81,67,32,24,24,25,59,59,168,169,169,169,169,169,152,24,105,24,24,24,24,170,24,25,171,172,173,24,76,106,47,174,175,176,24,24,25,34,24,25,36,57,15,9,21,0,0,0,0,2,0,0,0,1,11,12,47,23,24,80,103,0,50,49,81,67,24,25,59,59,59,59,113,106,25,55,25,25,24,25,24,25,78,79,24,170,25,35,33,34,54,35,96,49,81,177,178,179,24,24,25,24,25,25,101,99,43,37,21,0,1,0,0,0,0,0,1,11,22,23,107,156,156,156,180,181,182,156,156,156,156,156,156,183,156,156,113,24,25,25,35,184,185,186,47,35,33,81,35,170,35,67,33,34,54,67,96,25,59,32,32,32,24,25,35,67,67,33,60,36,43,57,21,0,0,0,0,0,11,12,12,22,32,32,96,24,23,32,103,0,50,81,67,25,59,81,187,188,189,59,113,24,25,67,67,190,191,192,81,67,81,54,67,193,194,60,24,25,24,25,96,24,25,24,25,47,35,81,67,60,60,67,60,101,92,99,21,0,0,0,0,0,50,23,23,32,24,24,96,24,24,25,103,0,50,24,25,59,24,195,196,197,198,59,113,67,60,24,25,32,32,32,24,25,24,199,200,201,202,24,25,25,47,35,96,35,47,35,49,81,67,33,60,59,60,60,59,24,25,36,21,0,0,0,0,0,50,32,32,24,24,25,96,25,24,25,26,12,22,59,24,25,59,203,204,205,206,25,113,106,25,24,25,24,35,35,47,35,35,207,208,209,210,35,47,35,81,67,96,106,81,24,25,24,25,25,24,25,59,60,59,24,25,36,21,0,159,0,1,0,50,24,24,25,24,25,96,25,61,62,24,25,59,47,35,24,25,24,25,59,25,59,113,24,25,35,35,33,35,67,81,67,67,32,49,81,46,24,25,24,25,211,163,24,25,24,25,47,35,35,35,35,24,25,34,24,25,36,21,0,0,0,0,0,50,24,25,59,23,46,96,35,67,60,24,106,59,25,55,59,24,24,25,59,25,35,188,35,67,67,67,67,24,25,24,25,24,25,24,25,25,47,35,47,35,107,152,47,35,47,35,81,67,35,67,67,41,67,35,35,25,36,21,0,0,0,0,0,50,24,25,59,24,25,96,25,60,60,47,35,25,24,24,25,24,24,25,59,46,46,100,46,24,25,24,25,24,23,46,47,35,48,46,212,213,214,215,216,67,113,67,81,67,81,67,24,25,24,25,60,125,60,59,24,25,36,21,0,0,0,0,0,50,24,25,24,25,24,96,35,59,60,81,35,35,25,25,59,35,23,46,47,46,46,217,46,24,25,47,33,35,32,49,81,67,58,49,218,219,220,221,222,60,158,60,54,60,24,25,23,46,47,35,33,130,60,81,24,25,36,21,0,0,0,0,0,50,25,59,23,46,47,96,67,34,67,24,35,35,24,25,24,25,24,25,33,33,34,54,54,35,67,81,67,67,24,25,59,60,66,25,24,25,24,25,24,25,170,223,105,25,23,23,32,49,106,67,59,41,60,59,24,25,36,21,0,0,1,1,0,50,25,59,61,62,24,188,41,24,25,25,24,25,24,25,59,24,25,24,25,24,25,35,67,24,25,24,25,59,33,34,54,81,77,59,23,23,23,23,46,23,160,224,224,156,224,224,224,225,87,60,59,125,67,59,60,24,25,103,0,0,0,0,0,50,25,24,25,24,25,24,125,24,25,25,24,25,35,24,25,25,59,25,59,24,25,59,25,59,23,46,35,23,46,47,23,46,33,23,46,47,35,48,49,32,32,32,32,32,24,24,24,226,227,228,59,130,60,59,60,24,25,103,0,0,0,0,0,50,25,59,24,25,25,24,130,25,24,25,55,67,24,25,59,25,23,46,47,35,48,23,46,23,46,35,35,48,49,81,32,49,81,32,49,81,67,58,25,24,24,24,24,24,25,59,60,229,230,231,59,60,60,59,60,24,25,103,0,0,0,0,0,50,25,59,24,25,25,232,233,234,24,25,24,25,59,25,59,25,32,49,81,67,58,32,49,32,49,81,67,58,25,59,24,25,59,24,35,59,60,66,23,23,23,23,23,23,32,33,33,33,33,33,33,33,67,81,67,24,25,103,0,0,0,0,0,50,24,25,24,24,25,235,236,237,24,25,24,25,59,35,23,46,238,239,240,60,66,24,25,24,25,59,60,66,32,49,32,49,32,33,34,54,81,77,32,32,32,32,32,32,24,241,242,33,33,33,33,243,244,59,60,24,25,103,0,0,0,0,0,50,25,59,24,25,33,34,54,33,34,54,23,23,46,47,32,49,245,246,247,81,77,81,67,33,34,54,34,77,24,33,24,25,24,25,24,25,24,25,24,35,24,24,24,24,25,248,249,250,33,33,251,252,253,59,60,24,25,26,12,13,0,0,0,50,25,59,23,24,25,32,24,25,24,25,32,32,49,81,24,25,254,255,256,24,25,59,60,24,25,24,25,59,60,49,81,67,32,32,49,32,49,33,49,32,32,49,32,32,32,33,257,258,33,33,33,33,33,59,60,67,259,260,261,103,0,0,0,50,25,59,32,24,25,24,23,23,46,54,24,24,25,59,60,60,32,32,49,32,24,25,59,24,24,25,59,24,24,25,59,60,24,54,25,24,25,24,25,24,24,25,262,263,264,24,33,265,266,267,33,33,24,25,59,60,33,33,33,103,0,1,0,50,25,59,24,23,35,25,32,32,49,23,23,23,32,32,24,24,24,24,25,24,25,59,60,34,24,25,59,60,24,25,59,60,24,25,59,60,24,25,59,24,25,59,60,34,24,25,59,33,33,33,33,35,24,25,59,60,33,33,33,103,0,0,0,50,25,59,60,32,23,23,24,24,35,32,32,32,268,269,25,268,269,268,269,23,23,23,23,268,269,268,269,268,269,268,269,23,23,23,46,47,23,23,35,23,23,23,23,46,23,23,23,46,23,59,32,32,24,25,262,263,264,33,25,103,0,0,0,50,226,227,228,226,227,228,23,23,23,24,24,24,33,34,54,34,54,33,34,54,32,35,33,34,33,34,54,34,54,33,34,54,32,32,49,81,32,32,49,32,32,32,32,49,33,32,32,49,32,32,24,24,25,59,33,33,33,33,102,117,0,0,0,50,80,25,59,60,24,24,32,32,32,32,32,24,33,34,54,33,34,54,33,34,54,33,34,33,34,33,34,33,33,34,54,24,24,24,268,269,24,24,25,24,24,262,263,264,24,24,24,25,259,260,261,25,59,33,33,54,33,77,103,0,0,0,0,88,89,90,59,60,60,67,24,24,24,24,24,25,268,269,268,269,268,269,268,269,35,35,268,269,268,269,268,269,268,269,268,269,268,269,33,33,268,269,35,35,35,35,35,35,35,262,263,264,33,33,33,262,263,264,35,35,35,35,103,0,0,0,0,0,0,50,25,59,60,60,60,60,35,60,60,60,33,34,33,34,33,34,54,34,54,67,33,34,54,33,34,54,33,33,33,34,33,33,34,54,33,34,54,67,67,67,67,67,67,33,33,33,33,33,33,33,33,33,67,67,67,67,103,0,0,0,1,0,0,50,268,269,268,269,268,269,268,269,268,269,33,34,54,54,33,33,34,54,268,269,33,33,33,33,34,54,33,34,54,33,34,54,268,269,33,33,268,269,60,60,60,60,60,33,33,54,33,77,33,34,54,33,77,60,60,60,103,0,0,0,0,1,0,50,33,34,54,100,33,34,33,34,54,100,77,34,33,34,54,35,33,33,34,54,33,34,54,33,34,54,34,54,33,34,54,54,54,54,54,54,54,54,54,102,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,117,0,0,0,0,0,0,50,33,34,54,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,34,54,80,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","main/top":"{\"width\":64,\"height\":64,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-cactus2:0,1\",\"tiles-cactus2:1,1\",\"tiles-buildings-ruin3:0,0\",\"tiles-buildings-ruin3:1,0\",\"tiles-buildings-ruin3:2,0\",\"tiles-cactus2:0,0\",\"tiles-cactus2:1,0\",\"tiles-furniture-alienstones1:0,3\",\"tiles-furniture-alienstones1:1,3\",\"tiles-furniture-alienstones1:2,3\",\"tiles-fir_tree1:0,1\",\"tiles-fir_tree1:1,1\",\"tiles-furniture-alienstones1:0,2\",\"tiles-furniture-alienstones1:1,2\",\"tiles-furniture-alienstones1:2,2\",\"tiles-fir_tree1:0,0\",\"tiles-fir_tree1:1,0\",\"animals-horse_left:0,0\",\"animals-horse_left:1,0\",\"tiles-cactus1:0,1\",\"tiles-cactus1:1,1\",\"tiles-redapple_tree:0,1\",\"tiles-redapple_tree:1,1\",\"tiles-furniture-alienstones1:0,1\",\"tiles-furniture-alienstones1:1,1\",\"tiles-furniture-alienstones1:2,1\",\"tiles-cactus1:0,0\",\"tiles-cactus1:1,0\",\"tiles-redapple_tree:0,0\",\"tiles-redapple_tree:1,0\",\"tiles-furniture-alienstones1:0,0\",\"tiles-furniture-alienstones1:1,0\",\"tiles-furniture-alienstones1:2,0\",\"tiles-buildings-house3:0,1\",\"tiles-buildings-house3:1,1\",\"tiles-buildings-house3:2,1\",\"tiles-buildings-house3:0,0\",\"tiles-buildings-house3:1,0\",\"tiles-buildings-house3:2,0\",\"tiles-walkable-grass:2,3\",\"tiles-vehicles-wagon1_road:0,0\",\"tiles-vehicles-wagon1_road:1,0\",\"tiles-vehicles-wagon1_road:2,0\",\"tiles-buildings-house4:0,2\",\"tiles-buildings-house4:1,2\",\"tiles-buildings-house4:2,2\",\"tiles-buildings-house4:0,1\",\"tiles-buildings-house4:1,1\",\"tiles-buildings-house4:2,1\",\"tiles-buildings-house4:0,0\",\"tiles-buildings-house4:1,0\",\"tiles-buildings-house4:2,0\",\"tiles-buildings-mvtardis1:0,2\",\"tiles-buildings-mvtardis1:1,2\",\"tiles-buildings-mvtardis1:2,2\",\"tiles-buildings-mvtardis1:0,1\",\"tiles-buildings-mvtardis1:1,1\",\"tiles-buildings-mvtardis1:2,1\",\"tiles-buildings-mvtardis1:0,0\",\"tiles-buildings-mvtardis1:1,0\",\"tiles-buildings-mvtardis1:2,0\",\"tiles-buildings-estatua\",\"animals-horse_right:0,0\",\"animals-horse_right:1,0\",\"tiles-buildings-phonebooth:0,2\",\"tiles-buildings-phonebooth:1,2\",\"tiles-buildings-phonebooth:2,2\",\"tiles-buildings-phonebooth:0,1\",\"tiles-buildings-phonebooth:1,1\",\"tiles-buildings-phonebooth:2,1\",\"tiles-buildings-phonebooth:0,0\",\"tiles-buildings-phonebooth:1,0\",\"tiles-buildings-phonebooth:2,0\",\"tiles-vehicles-wagon1_trsp:0,0\",\"tiles-vehicles-wagon1_trsp:1,0\",\"tiles-vehicles-wagon1_trsp:2,0\",\"tiles-buildings-house2:0,1\",\"tiles-buildings-house2:1,1\",\"tiles-buildings-house2:2,1\",\"tiles-buildings-house2:0,0\",\"tiles-buildings-house2:1,0\",\"tiles-buildings-house2:2,0\",\"tiles-buildings-house1:0,1\",\"tiles-buildings-house1:1,1\",\"tiles-buildings-house1:2,1\",\"tiles-buildings-house1:0,0\",\"tiles-buildings-house1:1,0\",\"tiles-buildings-house1:2,0\",\"tiles-buildings-shed1:0,0\",\"tiles-buildings-shed1:1,0\",\"tiles-buildings-shed1:2,0\",\"tiles-buildings-shed1:3,0\",\"tiles-buildings-shed2:0,0\",\"tiles-buildings-shed2:1,0\",\"tiles-buildings-shed2:2,0\",\"tiles-buildings-shed2:3,0\",\"tiles-buildings-ruin1:0,0\",\"tiles-buildings-carusal:0,2\",\"tiles-buildings-carusal:1,2\",\"tiles-buildings-carusal:2,2\",\"tiles-buildings-carusal:3,2\",\"tiles-buildings-carusal:4,2\",\"tiles-buildings-carusal:0,1\",\"tiles-buildings-carusal:1,1\",\"tiles-buildings-carusal:2,1\",\"tiles-buildings-carusal:3,1\",\"tiles-buildings-carusal:4,1\",\"tiles-buildings-carusal:0,0\",\"tiles-buildings-carusal:1,0\",\"tiles-buildings-carusal:2,0\",\"tiles-buildings-carusal:3,0\",\"tiles-buildings-carusal:4,0\",\"tiles-buildings-stonehenge_tbar:0,0\",\"tiles-buildings-stonehenge_tbar:1,0\",\"tiles-buildings-stonehenge_tbar:2,0\",\"tiles-buildings-ruin2:0,0\",\"tiles-buildings-ruin2:1,0\",\"tiles-buildings-ruin2:2,0\",\"tiles-furniture-transportbeam:0,2\",\"tiles-furniture-transportbeam:1,2\",\"tiles-furniture-transportbeam:2,2\",\"tiles-furniture-transportbeam:0,1\",\"tiles-furniture-transportbeam:1,1\",\"tiles-furniture-transportbeam:2,1\",\"tiles-buildings-stonehenge3:0,0\",\"tiles-buildings-stonehenge3:1,0\",\"tiles-buildings-stonehenge3:2,0\",\"tiles-furniture-transportbeam:0,0\",\"tiles-furniture-transportbeam:1,0\",\"tiles-furniture-transportbeam:2,0\",\"tiles-snowymountain1:0,1\",\"tiles-snowymountain1:1,1\",\"tiles-snowymountain1:2,1\",\"tiles-buildings-stonehenge2:0,0\",\"tiles-buildings-stonehenge2:1,0\",\"tiles-buildings-stonehenge2:2,0\",\"tiles-snowymountain1:0,0\",\"tiles-snowymountain1:1,0\",\"tiles-snowymountain1:2,0\",\"tiles-big_tree:0,1\",\"tiles-big_tree:1,1\",\"tiles-mountain1:0,1\",\"tiles-mountain1:1,1\",\"tiles-mountain1:2,1\",\"tiles-buildings-stonehenge_tbar:0,1\",\"tiles-buildings-stonehenge_tbar:1,1\",\"tiles-buildings-stonehenge_tbar:2,1\",\"tiles-big_tree:0,0\",\"tiles-big_tree:1,0\",\"tiles-mountain1:0,0\",\"tiles-mountain1:1,0\",\"tiles-mountain1:2,0\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,4,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,17,0,0,0,0,0,0,0,18,19,0,0,0,0,0,0,0,0,0,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,23,0,0,0,24,25,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,12,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,0,0,0,31,32,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,35,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,38,39,0,0,0,0,0,0,0,0,0,0,0,0,22,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,22,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,42,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,45,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47,48,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,51,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,54,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,57,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,60,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,0,0,0,0,0,0,0,0,0,0,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63,64,0,0,62,0,0,0,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,66,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,69,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,71,72,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,75,76,0,0,0,0,77,78,79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,23,0,0,0,0,0,0,0,0,0,0,0,80,81,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,83,84,85,0,0,29,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,87,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,90,91,92,0,0,0,0,0,0,0,0,0,0,0,0,93,94,95,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,98,99,100,101,102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,103,104,105,106,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,108,109,110,111,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,114,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,116,117,118,0,0,0,0,0,0,0,0,119,120,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,125,126,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,129,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,132,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,134,135,136,0,0,0,0,0,0,137,138,139,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,140,141,0,140,141,140,141,0,0,0,0,140,141,140,141,140,141,140,141,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,142,143,144,0,0,0,0,0,0,0,145,146,147,145,146,147,0,0,0,0,0,0,148,149,0,148,149,148,149,0,0,0,0,148,149,148,149,148,149,148,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150,151,152,0,0,0,0,0,0,0,113,114,115,113,114,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,140,141,0,0,0,0,0,0,0,0,0,0,0,0,131,132,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61,0,0,0,0,0,0,0,0,0,140,141,140,141,140,141,140,141,0,0,140,141,140,141,140,141,140,141,140,141,140,141,148,149,140,141,0,0,0,0,0,0,0,142,143,144,137,138,139,142,143,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,148,149,148,149,148,149,148,149,0,0,148,149,148,149,148,149,148,149,148,149,148,149,0,0,148,149,0,0,0,0,0,0,0,150,151,152,0,0,0,150,151,152,0,0,0,0,0,0,0,0,0,0,0,0,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,140,141,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,148,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","phonebooth1/base":"{\"width\":3,\"height\":4,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-walkable-phoneboothfloor:0,1\",\"tiles-walkable-phoneboothfloor:1,1\",\"tiles-walkable-phoneboothfloor:2,1\",\"tiles-walkable-phoneboothfloor:0,0\",\"tiles-walkable-phoneboothfloor:1,0\",\"tiles-walkable-phoneboothfloor:2,0\",\"tiles-wall-phoneboothwindow:0,1\",\"tiles-wall-phoneboothwindow:1,1\",\"tiles-wall-phoneboothwindow:2,1\",\"tiles-wall-phoneboothwindow:0,0\",\"tiles-wall-phoneboothwindow:1,0\",\"tiles-wall-phoneboothwindow:2,0\"],\"data\":[1,2,3,4,5,6,7,8,9,10,11,12]}","phonebooth1/top":"{\"width\":3,\"height\":4,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-exitsquare\",\"tiles-furniture-phonebookrack\",\"tiles-furniture-phone2\"],\"data\":[0,1,0,0,0,2,0,0,3,0,0,0]}","ruin1/base":"{\"width\":30,\"height\":30,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-wall_stone_top:0,1\",\"tiles-wall-wall_stone_top:1,1\",\"tiles-wall-wall_stone_top:2,1\",\"tiles-walkable-floor_tile1:2,4\",\"tiles-walkable-floor_tile1:1,3\",\"tiles-walkable-floor_tile1:2,3\",\"tiles-walkable-floor_tile1:0,3\",\"tiles-walkable-floor_tile1:0,2\",\"tiles-walkable-floor_tile1:1,2\",\"tiles-walkable-floor_tile1:2,2\",\"tiles-walkable-floor_tile2:2,2\",\"tiles-walkable-floor_tile2:1,2\",\"tiles-walkable-floor_tile1:3,3\",\"tiles-walkable-floor_tile1:3,2\",\"tiles-walkable-floor_tile1:4,2\",\"tiles-walkable-floor_tile1:0,1\",\"tiles-walkable-floor_tile1:1,1\",\"tiles-walkable-floor_tile1:2,1\",\"tiles-walkable-floor_tile1:3,1\",\"tiles-walkable-floor_tile2:1,0\",\"tiles-walkable-floor_tile2:0,2\",\"tiles-walkable-floor_tile1:4,1\",\"tiles-walkable-floor_tile1:3,4\",\"tiles-walkable-floor_tile1:4,4\",\"tiles-walkable-floor_tile1:0,0\",\"tiles-walkable-floor_tile1:1,0\",\"tiles-walkable-floor_tile1:2,0\",\"tiles-walkable-floor_tile1:3,0\",\"tiles-walkable-floor_tile1:4,3\",\"tiles-walkable-floor_tile1:4,0\",\"tiles-walkable-floor_tile1:0,4\",\"tiles-walkable-floor_tile1:1,4\",\"tiles-walkable-floor_tile2:2,0\",\"tiles-wall-wall_stone_top:0,0\",\"tiles-wall-wall_stone_top:1,0\",\"tiles-wall-wall_stone_top:2,0\"],\"data\":[1,2,3,2,3,1,2,2,1,2,2,4,1,2,3,1,2,2,1,2,3,1,2,3,1,2,3,1,2,3,1,5,6,7,5,6,8,9,10,11,12,7,5,6,13,8,9,10,14,15,6,13,8,9,10,14,15,12,13,1,1,9,12,8,9,10,16,17,18,19,20,21,9,10,14,16,17,18,19,22,23,24,16,17,18,19,22,10,14,1,1,17,18,16,17,18,25,26,27,28,3,16,17,18,19,25,26,27,28,21,13,29,25,26,27,28,30,18,19,1,2,26,27,25,26,31,32,4,23,24,1,33,26,27,28,16,17,18,19,22,14,15,33,5,6,25,26,27,28,3,1,26,27,28,30,7,5,6,13,29,3,33,32,4,23,25,26,27,28,30,19,22,33,9,10,25,26,27,28,1,1,5,6,13,3,1,3,3,14,15,3,33,5,11,13,29,31,12,26,27,28,30,33,17,18,19,22,9,10,1,1,9,10,14,1,16,12,3,19,22,1,1,2,3,1,2,3,1,2,3,1,2,3,26,27,21,30,17,18,3,1,33,18,19,3,25,31,1,4,23,24,16,17,18,19,22,8,9,10,14,8,9,10,14,15,6,25,26,27,1,3,33,27,28,30,22,7,3,6,13,29,25,26,27,28,30,16,17,11,19,16,17,18,19,22,10,14,15,31,1,1,33,26,21,28,30,8,3,10,14,15,23,24,23,24,7,25,26,27,28,25,26,27,28,30,18,19,22,7,2,1,33,6,13,29,4,16,3,18,19,22,13,29,3,29,12,4,23,24,7,5,6,13,25,3,27,28,30,8,1,1,33,10,14,15,6,25,26,27,28,30,14,15,1,15,5,6,13,29,8,9,10,14,15,1,33,13,12,16,3,1,33,18,19,22,10,14,15,16,17,18,19,11,3,22,9,10,14,15,16,17,18,19,22,3,10,14,15,25,1,1,26,27,1,2,3,1,2,3,1,2,3,2,3,2,3,1,2,3,25,26,27,28,30,3,11,19,22,13,1,3,32,4,25,26,27,28,30,18,19,22,4,23,24,25,26,27,28,30,31,32,4,23,25,3,1,3,1,3,1,1,5,6,13,29,7,25,26,27,28,30,6,13,29,7,5,6,13,29,7,5,6,13,29,31,16,17,18,33,1,1,9,10,14,15,8,9,10,14,8,3,2,3,1,8,9,10,14,15,8,9,10,14,15,7,12,26,27,28,1,1,17,18,19,22,16,17,18,19,16,3,18,19,22,16,17,18,19,22,16,17,18,19,22,8,9,10,16,17,2,1,26,27,28,30,25,26,27,28,33,3,27,28,30,25,26,27,28,21,25,26,27,28,30,16,17,18,25,26,1,1,32,4,23,24,31,32,1,2,3,1,2,3,1,2,3,1,1,2,3,1,1,2,3,25,26,27,21,30,3,3,5,6,13,29,7,5,6,13,29,7,5,6,13,29,7,5,6,13,12,3,33,6,13,29,7,5,6,13,1,1,9,10,14,1,8,9,10,14,15,8,9,10,14,15,8,9,10,14,15,1,33,10,14,15,8,9,10,14,1,1,17,18,12,3,21,17,18,19,22,16,17,18,19,22,16,17,18,19,22,3,33,18,19,22,16,17,18,19,1,1,26,27,3,3,3,3,1,3,3,1,2,3,28,30,25,26,27,1,2,3,3,1,2,3,3,3,27,28,1,1,32,4,23,24,31,32,4,23,24,31,32,4,23,24,31,32,4,23,24,31,32,4,23,24,31,32,4,23,3,1,5,6,13,29,7,5,6,13,29,7,5,6,13,29,7,5,6,13,29,7,5,6,21,29,7,5,6,13,1,1,11,10,14,15,8,9,10,14,15,8,9,10,14,15,8,9,10,14,15,8,9,10,14,15,8,9,10,33,1,1,2,3,1,2,2,1,2,3,1,2,3,1,2,3,1,2,2,1,2,3,1,2,3,1,2,3,1,2,3,34,35,36,34,35,36,34,35,36,34,35,36,34,35,36,34,35,36,34,35,36,34,35,36,34,35,36,34,35,36]}5,6,13,29,7,5,6,21,29,7,5,6,13,1,1,11,10,14,15,8,9,10,14,15,8,9,10,14,15,8,9,10,14,15,8,9,10,14,15,8,9,10,33,1,1,2,3,1,2,2,1,2,3,1,2,3,1,2,3,1,2,2,1,2,3,1,2,3,1,2,3,1,2,3,43,44,45,43,44,45,43,44,45,43,44,45,43,44,45,43,44,45,43,44,45,43,44,45,43,44,45,43,44,45]}","ruin1/top":"{\"width\":30,\"height\":30,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-exitsquare\",\"tiles-wall-wall_stone_top:0,0\",\"tiles-wall-wall_stone_top:1,0\",\"tiles-wall-wall_stone_top:2,0\",\"tiles-furniture-bookshelf1\",\"tiles-furniture-worthy1\",\"tiles-furniture-chair\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,2,3,4,2,3,4,4,0,2,3,2,3,4,2,3,4,2,3,4,2,3,4,2,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,2,3,4,2,3,4,2,2,3,4,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,3,4,3,4,2,3,4,2,3,4,2,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,2,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,2,3,4,2,3,4,2,2,3,4,0,2,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,4,2,3,4,2,2,3,4,0,0,5,0,0,2,3,4,2,3,4,2,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","snowymountain/base":"{\"width\":24,\"height\":16,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-walkable-insideskull:0,2\",\"tiles-walkable-insideskull:1,2\",\"tiles-walkable-insideskull:2,2\",\"tiles-walkable-insideskull:3,2\",\"tiles-walkable-tardisfloor:0,3\",\"tiles-walkable-tardisfloor:1,3\",\"tiles-walkable-tardisfloor:2,3\",\"tiles-walkable-tardisfloor:3,3\",\"tiles-walkable-insideskull:0,1\",\"tiles-walkable-insideskull:1,1\",\"tiles-walkable-insideskull:2,1\",\"tiles-walkable-insideskull:3,1\",\"tiles-walkable-tardisfloor:0,2\",\"tiles-walkable-tardisfloor:1,2\",\"tiles-walkable-tardisfloor:2,2\",\"tiles-walkable-tardisfloor:3,2\",\"tiles-walkable-insideskull:0,0\",\"tiles-walkable-insideskull:1,0\",\"tiles-walkable-insideskull:2,0\",\"tiles-walkable-insideskull:3,0\",\"tiles-walkable-tardisfloor:0,1\",\"tiles-walkable-tardisfloor:1,1\",\"tiles-walkable-tardisfloor:2,1\",\"tiles-walkable-tardisfloor:3,1\",\"tiles-walkable-insideskull:0,3\",\"tiles-walkable-insideskull:1,3\",\"tiles-walkable-insideskull:2,3\",\"tiles-walkable-insideskull:3,3\",\"tiles-walkable-tardisfloor:0,0\",\"tiles-walkable-tardisfloor:1,0\",\"tiles-walkable-tardisfloor:2,0\",\"tiles-walkable-tardisfloor:3,0\",\"tiles-walkable-shedtile\"],\"data\":[1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,5,6,7,8,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,13,14,15,16,17,18,19,20,17,18,19,20,17,18,19,20,17,18,19,20,17,18,19,20,21,22,23,24,17,9,10,11,12,9,10,11,1,2,3,4,1,25,26,27,28,1,2,3,29,30,31,32,25,26,27,28,25,26,27,28,25,26,27,28,25,26,27,28,25,26,27,28,25,26,27,28,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,17,18,19,20,17,18,19,20,17,33,33,33,33,33,19,20,17,18,19,20,17,18,19,20,25,26,27,28,25,26,27,28,25,33,33,33,33,33,27,28,25,26,27,28,25,26,27,28,1,2,3,4,1,2,3,4,1,33,33,33,33,33,3,4,1,2,3,4,1,2,3,4,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,17,18,19,20,17,18,19,20,17,18,19,20,17,18,19,20,17,18,19,20,17,18,19,20,25,26,27,28,25,26,27,28,25,26,27,28,25,26,27,28,25,26,27,28,25,26,27,28,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,9,10,11,12,17,18,19,20,17,18,19,20,17,18,19,20,17,18,19,20,17,18,19,20,17,18,19,20]}","snowymountain/top":"{\"width\":24,\"height\":16,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-transportbeam:0,2\",\"tiles-furniture-transportbeam:1,2\",\"tiles-furniture-transportbeam:2,2\",\"tiles-furniture-transportbeam:0,1\",\"tiles-furniture-transportbeam:1,1\",\"tiles-furniture-transportbeam:2,1\",\"tiles-furniture-transportbeam:0,0\",\"tiles-furniture-transportbeam:1,0\",\"tiles-furniture-transportbeam:2,0\",\"tiles-furniture-arrow_right\",\"tiles-furniture-arrow_down\",\"tiles-wip\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","tardis1/base":"{\"width\":32,\"height\":32,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-wall_tardis:0,1\",\"tiles-wall-wall_tardis:1,1\",\"tiles-wall-wall_tardis:2,1\",\"tiles-wall-wall_tardis:0,0\",\"tiles-walkable-tardisfloor:1,2\",\"tiles-walkable-tardisfloor:2,2\",\"tiles-walkable-tardisfloor:3,2\",\"tiles-walkable-tardisfloor:0,2\",\"tiles-walkable-sand:0,3\",\"tiles-walkable-sand:2,3\",\"tiles-walkable-sand:3,3\",\"tiles-wall-wall_tardis:2,0\",\"tiles-walkable-tardisfloor:1,1\",\"tiles-walkable-tardisfloor:2,1\",\"tiles-walkable-tardisfloor:3,1\",\"tiles-walkable-tardisfloor:0,1\",\"tiles-walkable-sand:0,2\",\"tiles-walkable-sand:2,2\",\"tiles-walkable-sand:3,2\",\"tiles-walkable-tardisfloor:1,0\",\"tiles-walkable-tardisfloor:2,0\",\"tiles-walkable-tardisfloor:3,0\",\"tiles-walkable-tardisfloor:0,0\",\"tiles-walkable-sand:1,0\",\"tiles-walkable-sand:0,1\",\"tiles-cactus1:0,2\",\"tiles-cactus1:1,2\",\"tiles-walkable-sand:1,3\",\"tiles-walkable-tardisfloor:1,3\",\"tiles-walkable-tardisfloor:2,3\",\"tiles-walkable-tardisfloor:3,3\",\"tiles-walkable-tardisfloor:0,3\",\"tiles-walkable-sand:0,0\",\"tiles-walkable-cow_skull1\",\"tiles-walkable-sand:1,2\",\"tiles-walkable-ribcage1\",\"tiles-walkable-sand:1,1\",\"tiles-walkable-sand:2,1\",\"tiles-walkable-sand:3,1\",\"tiles-walkable-sand:4,1\",\"tiles-walkable-sand:2,0\",\"tiles-walkable-sand:3,0\",\"tiles-walkable-sand:4,0\",\"tiles-furniture-tardiscontrol:0,3\",\"tiles-furniture-tardiscontrol:1,3\",\"tiles-furniture-tardiscontrol:2,3\",\"tiles-furniture-tardiscontrol:3,3\",\"tiles-furniture-tardiscontrol:0,2\",\"tiles-furniture-tardiscontrol:1,2\",\"tiles-furniture-tardiscontrol:2,2\",\"tiles-furniture-tardiscontrol:3,2\",\"tiles-furniture-alientank2:0,3\",\"tiles-furniture-alientank2:1,3\",\"tiles-furniture-alientank2:2,3\",\"tiles-furniture-alientank2:3,3\",\"tiles-furniture-alientank2:0,2\",\"tiles-furniture-alientank2:1,2\",\"tiles-furniture-alientank2:2,2\",\"tiles-furniture-alientank2:3,2\",\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:2,2\",\"tiles-wall-shed1:0,1\",\"tiles-walkable-shedtile\",\"tiles-wall-shed1:2,1\",\"tiles-wall-todntink:0,1\",\"tiles-wall-todntink:1,1\",\"tiles-wall-todntink:2,1\",\"tiles-wall-todntink:3,1\",\"tiles-wall-shed1:0,0\",\"tiles-wall-todntink:0,0\",\"tiles-wall-todntink:1,0\",\"tiles-wall-todntink:2,0\",\"tiles-wall-todntink:3,0\",\"tiles-wall-shed1:2,0\",\"tiles-wall-wall_tardis:1,0\"],\"data\":[1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,3,4,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,4,9,10,11,11,9,9,12,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,1,17,18,19,19,17,17,3,4,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,24,25,26,27,9,28,25,12,1,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,24,33,28,10,34,35,33,3,4,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,4,17,35,18,19,36,17,12,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,1,25,37,38,39,40,25,3,4,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,4,33,24,41,42,43,33,12,1,29,30,31,32,29,30,31,32,29,30,31,44,45,46,47,32,29,30,31,32,29,30,31,1,2,3,2,3,1,2,3,4,5,6,7,8,5,6,7,8,5,6,7,48,49,50,51,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,12,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,3,4,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,12,1,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,3,4,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,12,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,3,4,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,12,1,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,3,4,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,12,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,3,4,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,12,1,29,30,31,32,29,30,31,52,53,54,55,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,3,4,5,6,7,8,5,6,7,56,57,58,59,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,12,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,3,4,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,12,1,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,3,4,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,12,1,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,15,16,13,14,3,4,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,22,23,20,21,12,60,61,61,61,61,62,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,31,32,29,30,3,63,64,64,64,64,65,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,7,8,5,6,12,63,66,67,68,69,65,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,70,71,72,73,74,75,76,12,4,76,12,4,76,12,4,76,12,4,76,12,4,76,12,4,76,12,4,76,12,4,76,12]}","tardis1/top":"{\"width\":32,\"height\":32,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-cactus1:0,1\",\"tiles-cactus1:1,1\",\"tiles-cactus1:0,0\",\"tiles-cactus1:1,0\",\"tiles-furniture-transportbeam:0,2\",\"tiles-furniture-transportbeam:1,2\",\"tiles-furniture-transportbeam:2,2\",\"tiles-furniture-transportbeam:0,1\",\"tiles-furniture-transportbeam:1,1\",\"tiles-furniture-transportbeam:2,1\",\"tiles-furniture-vase1\",\"tiles-furniture-transportbeam:0,0\",\"tiles-furniture-transportbeam:1,0\",\"tiles-furniture-transportbeam:2,0\",\"tiles-wall-wall_tardis:0,0\",\"tiles-wall-wall_tardis:1,0\",\"tiles-wall-wall_tardis:2,0\",\"tiles-furniture-tardiscontrol:0,1\",\"tiles-furniture-tardiscontrol:1,1\",\"tiles-furniture-tardiscontrol:2,1\",\"tiles-furniture-tardiscontrol:3,1\",\"tiles-furniture-tardiscontrol:0,0\",\"tiles-furniture-tardiscontrol:1,0\",\"tiles-furniture-tardiscontrol:2,0\",\"tiles-furniture-tardiscontrol:3,0\",\"tiles-furniture-alienstones1:0,3\",\"tiles-furniture-alienstones1:1,3\",\"tiles-furniture-alienstones1:2,3\",\"tiles-furniture-exitsquare\",\"tiles-furniture-arrow_right\",\"tiles-furniture-alienstones1:0,2\",\"tiles-furniture-alienstones1:1,2\",\"tiles-furniture-alienstones1:2,2\",\"tiles-furniture-alientank2:0,1\",\"tiles-furniture-alientank2:1,1\",\"tiles-furniture-alientank2:2,1\",\"tiles-furniture-alientank2:3,1\",\"tiles-furniture-alienstones1:0,1\",\"tiles-furniture-alienstones1:1,1\",\"tiles-furniture-alienstones1:2,1\",\"tiles-furniture-alientank2:0,0\",\"tiles-furniture-alientank2:1,0\",\"tiles-furniture-alientank2:2,0\",\"tiles-furniture-alientank2:3,0\",\"tiles-furniture-alienstones1:0,0\",\"tiles-furniture-alienstones1:1,0\",\"tiles-furniture-alienstones1:2,0\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,12,13,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,16,17,15,16,17,15,16,0,0,0,0,0,0,0,0,0,0,0,0,18,19,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,23,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,27,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,31,32,33,0,0,0,0,0,0,0,0,0,0,0,0,0,34,35,36,37,0,0,0,0,0,0,0,0,0,0,0,0,38,39,40,0,0,0,0,0,0,0,0,0,0,0,0,0,41,42,43,44,0,0,0,0,0,0,0,0,0,0,0,0,45,46,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","teleporter1/base":"{\"width\":5,\"height\":10,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-wall_brick2:0,0\",\"tiles-wall-wall_brick2:1,0\",\"tiles-walkable-planks\",\"tiles-wall-wall_brick2:3,0\",\"tiles-wall-wall_brick2:4,0\",\"tiles-walkable-grass:2,4\",\"tiles-walkable-grass:0,4\",\"tiles-walkable-grass:1,4\",\"tiles-walkable-grass:3,2\",\"tiles-walkable-grass:4,2\",\"tiles-walkable-grass:3,1\",\"tiles-walkable-grass:4,1\",\"tiles-wall-wall_brick2:2,0\"],\"data\":[1,2,3,4,5,1,6,7,8,5,1,7,7,7,5,1,7,7,7,5,1,7,7,7,5,1,7,7,7,5,1,7,7,7,5,1,9,10,10,5,1,11,12,12,5,1,2,13,4,5]}","teleporter1/top":"{\"width\":5,\"height\":10,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-exitsquare\",\"tiles-furniture-painting2\",\"tiles-furniture-transportbeam:0,2\",\"tiles-furniture-transportbeam:1,2\",\"tiles-furniture-transportbeam:2,2\",\"tiles-furniture-painting1\",\"tiles-furniture-transportbeam:0,1\",\"tiles-furniture-transportbeam:1,1\",\"tiles-furniture-transportbeam:2,1\",\"tiles-furniture-transportbeam:0,0\",\"tiles-furniture-transportbeam:1,0\",\"tiles-furniture-transportbeam:2,0\"],\"data\":[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,3,4,5,0,6,7,8,9,0,0,10,11,12,0,0,0,0,0,0]}","tinkerlair/base":"{\"width\":7,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:4,0\",\"tiles-wall-shed1:5,0\",\"tiles-wall-shed1:0,1\",\"tiles-walkable-shedtile\",\"tiles-walkable-shedexits:0,0\",\"tiles-wall-shed1:6,2\",\"tiles-wall-shed1:2,1\",\"tiles-wall-todntink:2,1\",\"tiles-wall-todntink:3,1\",\"tiles-wall-todntink:0,1\",\"tiles-wall-todntink:1,1\",\"tiles-wall-shed1:0,0\",\"tiles-wall-todntink:2,0\",\"tiles-wall-todntink:3,0\",\"tiles-wall-todntink:0,0\",\"tiles-wall-todntink:1,0\",\"tiles-wall-shed1:2,0\"],\"data\":[1,2,3,3,3,2,4,5,6,6,6,6,6,7,5,6,6,6,6,6,8,5,6,6,6,6,6,9,5,6,6,6,6,6,9,5,10,11,6,12,13,9,14,15,16,3,17,18,19]}","tinkermaze0/base":"{\"width\":7,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:5,0\",\"tiles-walkable-floor1\",\"tiles-wall-shed1:3,0\",\"tiles-wall-shed1:2,2\",\"tiles-wall-shed1:0,1\",\"tiles-wall-shed1:2,1\",\"tiles-wall-shed1:2,0\",\"tiles-wall-shed1:0,0\",\"tiles-wall-shed1:4,0\"],\"data\":[1,2,3,4,5,2,6,7,4,4,4,4,4,8,9,4,4,4,4,4,10,4,4,4,4,4,4,4,6,4,4,4,4,4,1,7,4,4,4,4,4,8,10,11,3,4,5,11,9]}","tinkermaze0/top":"{\"width\":7,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-transportbeam:0,2\",\"tiles-furniture-transportbeam:1,2\",\"tiles-furniture-transportbeam:2,2\",\"tiles-furniture-transportbeam:0,1\",\"tiles-furniture-transportbeam:1,1\",\"tiles-furniture-transportbeam:2,1\",\"tiles-furniture-transportbeam:0,0\",\"tiles-furniture-transportbeam:1,0\",\"tiles-furniture-transportbeam:2,0\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,0,0,0,0,4,5,6,0,0,0,0,7,8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}","tinkermaze1/base":"{\"width\":7,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:5,0\",\"tiles-walkable-floor1\",\"tiles-wall-shed1:3,0\",\"tiles-wall-shed1:2,2\",\"tiles-wall-shed1:0,1\",\"tiles-wall-shed1:2,1\",\"tiles-wall-shed1:2,0\",\"tiles-wall-shed1:0,0\",\"tiles-wall-shed1:4,0\"],\"data\":[1,2,3,4,5,2,6,7,4,4,4,4,4,8,9,4,4,4,4,4,10,4,4,4,4,4,4,4,6,4,4,4,4,4,1,7,4,4,4,4,4,8,10,11,3,4,5,11,9]}","tinkermaze2/base":"{\"width\":7,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:5,0\",\"tiles-walkable-floor1\",\"tiles-wall-shed1:3,0\",\"tiles-wall-shed1:2,2\",\"tiles-wall-shed1:0,1\",\"tiles-wall-shed1:2,1\",\"tiles-wall-shed1:2,0\",\"tiles-wall-shed1:0,0\",\"tiles-wall-shed1:4,0\"],\"data\":[1,2,3,4,5,2,6,7,4,4,4,4,4,8,9,4,4,4,4,4,10,4,4,4,4,4,4,4,6,4,4,4,4,4,1,7,4,4,4,4,4,8,10,11,3,4,5,11,9]}","tinkermaze3/base":"{\"width\":7,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:5,0\",\"tiles-walkable-floor1\",\"tiles-wall-shed1:3,0\",\"tiles-wall-shed1:2,2\",\"tiles-wall-shed1:0,1\",\"tiles-wall-shed1:2,1\",\"tiles-wall-shed1:2,0\",\"tiles-wall-shed1:0,0\",\"tiles-wall-shed1:4,0\"],\"data\":[1,2,3,4,5,2,6,7,4,4,4,4,4,8,9,4,4,4,4,4,10,4,4,4,4,4,4,4,6,4,4,4,4,4,1,7,4,4,4,4,4,8,10,11,3,4,5,11,9]}","tinkermaze4/base":"{\"width\":7,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:5,0\",\"tiles-walkable-floor1\",\"tiles-wall-shed1:3,0\",\"tiles-wall-shed1:2,2\",\"tiles-wall-shed1:0,1\",\"tiles-wall-shed1:2,1\",\"tiles-wall-shed1:2,0\",\"tiles-wall-shed1:0,0\",\"tiles-wall-shed1:4,0\"],\"data\":[1,2,3,4,5,2,6,7,4,4,4,4,4,8,9,4,4,4,4,4,10,4,4,4,4,4,4,4,6,4,4,4,4,4,1,7,4,4,4,4,4,8,10,11,3,4,5,11,9]}","tinkershed1/base":"{\"width\":9,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:5,0\",\"tiles-walkable-shedexits:1,0\",\"tiles-wall-shed1:3,0\",\"tiles-wall-shed1:2,2\",\"tiles-wall-shed1:0,1\",\"tiles-walkable-shedtile\",\"tiles-wall-shed1:2,1\",\"tiles-wall-shed1:6,0\",\"tiles-shedstuff1:2,1\",\"tiles-shedstuff1:3,1\",\"tiles-walkable-shedexits:0,0\",\"tiles-wall-shed1:6,2\",\"tiles-shedstuff1:2,3\",\"tiles-shedstuff1:3,3\",\"tiles-furniture-tinkersink:0,1\",\"tiles-wall-shed1:0,0\",\"tiles-wall-shed1:2,0\"],\"data\":[1,2,2,3,4,5,2,2,6,7,8,8,8,8,8,8,8,9,7,8,8,8,8,8,8,8,10,7,8,8,11,12,8,8,8,13,7,8,8,8,8,8,8,8,14,7,15,16,8,8,8,17,8,9,18,2,2,2,2,2,2,2,19]}","tinkershed1/top":"{\"width\":9,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-shedstuff1:2,0\",\"tiles-shedstuff1:3,0\",\"tiles-shedstuff1:2,2\",\"tiles-shedstuff1:3,2\",\"tiles-furniture-tinkersink:0,0\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,4,0,0,0,5,0,0]}","tinkershed2/base":"{\"width\":9,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:5,0\",\"tiles-walkable-shedexits:1,0\",\"tiles-wall-shed1:3,0\",\"tiles-wall-shed1:2,2\",\"tiles-wall-shed1:0,1\",\"tiles-walkable-shedtile\",\"tiles-wall-shed1:2,1\",\"tiles-wall-shed1:6,0\",\"tiles-shedstuff1:0,1\",\"tiles-shedstuff1:1,1\",\"tiles-walkable-shedexits:1,1\",\"tiles-furniture-tinkersink:0,1\",\"tiles-wall-shed1:6,2\",\"tiles-shedstuff1:2,1\",\"tiles-shedstuff1:3,1\",\"tiles-shedstuff1:0,3\",\"tiles-shedstuff1:1,3\",\"tiles-wall-shed1:0,0\",\"tiles-wall-shed1:2,0\"],\"data\":[1,2,2,3,4,5,2,2,6,7,8,8,8,8,8,8,8,9,10,8,11,12,8,8,8,8,9,13,8,8,8,8,8,14,8,9,15,8,8,8,8,8,8,8,9,7,16,17,16,17,8,18,19,9,20,2,2,2,2,2,2,2,21]}","tinkershed2/top":"{\"width\":9,\"height\":7,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-furniture-tinkersink:0,0\",\"tiles-shedstuff1:2,0\",\"tiles-shedstuff1:3,0\",\"tiles-shedstuff1:0,2\",\"tiles-shedstuff1:1,2\"],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,3,2,3,0,4,5,0]}","tinkertunnel1/base":"{\"width\":9,\"height\":5,\"block_width\":16,\"block_height\":16,\"sprites\":[0,\"tiles-wall-shed1:1,2\",\"tiles-wall-shed1:2,2\",\"tiles-walkable-shedexits:1,1\",\"tiles-walkable-shedtile\",\"tiles-wall-shed1:2,1\",\"tiles-wall-shed1:0,2\",\"tiles-wall-shed1:4,0\",\"tiles-wall-shed1:5,0\",\"tiles-wall-shed1:0,0\",\"tiles-wall-shed1:0,1\",\"tiles-walkable-shedexits:0,0\",\"tiles-walkable-shedexits:0,1\",\"tiles-wall-shed1:3,0\"],\"data\":[1,1,1,1,1,2,0,0,0,3,4,4,4,4,5,0,0,0,6,7,7,8,4,9,7,7,7,10,4,4,4,4,4,4,4,11,9,8,12,13,7,7,7,7,7]}","tinkertunnel1/top":"{\"width\":9,\"height\":5,\"block_width\":16,\"block_height\":16,\"sprites\":[0],\"data\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"},"sounds":[{"file":"woof.wav","version":1,"size":56364,"properties":{}}],"music":[{"file":"edsfdsds.mp3","version":1,"size":461426,"properties":{}},{"file":"microverse1.mp3","version":1,"size":4701190,"properties":{}},{"file":"microversealiens1.mp3","version":1,"size":3719404,"properties":{}},{"file":"phonetime.mp3","version":1,"size":1229426,"properties":{}},{"file":"sfds.mp3","version":1,"size":2304626,"properties":{}},{"file":"soifjosjof.mp3","version":1,"size":1843826,"properties":{}},{"file":"spooky.mp3","version":1,"size":6713901,"properties":{}},{"file":"sweetsunday2.mp3","version":1,"size":3561639,"properties":{}},{"file":"tardis.mp3","version":1,"size":1229426,"properties":{}},{"file":"tinkering.mp3","version":1,"size":302313,"properties":{}},{"file":"vdsfdslfsmicroverseantiguo.mp3","version":1,"size":1412981,"properties":{}}]};
+var graphics = "M1";
+
+</script><script type="text/javascript">var orientation = 'any' ;
+var aspect = 'free' ;
+var ms_libs = [] ;
+window.skip_service_worker = true;
+window.exported_project = true;
+window.ms_use_server = true ;
+</script><script src="compiler.js"></script><script src="parser.js"></script><script src="processor.js"></script><script src="program.js"></script><script src="routine.js"></script><script src="runner.js"></script><script src="token.js"></script><script src="tokenizer.js"></script><script src="transpiler.js"></script><script src="microengine.js"></script></body><script type="text/javascript">//
+//
+// The game is started with the code below.
+// Once you have received the "started" signal (see below),
+// you can do the following:
+// 1) Inject functions or objects into the global context of the microStudio engine, example:
+//
+//   window.player.setGlobal("special_callback",function(x) { console.info(x) }) ;
+//   // Your microScript code can now call the "special_callback" function
+//
+// 2) Call microScript global functions from your JavaScript code, example:
+//
+//   window.player.call("call_me_from_javascript",[10,1000]) ;
+//   // arguments to the function call are provided as an array
+//
+// 3) Run a microScript code snippet from your JavaScript code, example:
+//
+//   window.player.exec("player.position_x = 50",function(result) { console.log(result) ; }) ;
+//
+
+window.addEventListener("load",function() {
+  window.player = new Player(function(event) {
+    if (event.name == "started") {
+      // signal that the game is started
+    }
+    else if (event.name == "log") {
+      // console.info(event.data) ;
+    }
+  }) ;
+  document.body.focus() ;
+}) ;
+
+</script><script id="code" type="text/x-microscript">
+
+
+// file: classes/entities/entity.ms
+function()
+Entity = class
+  constructor = function(spr, x, y, width, height, colLayers, name, color)
+    // the sprite to be drawn
+    this.spr = spr
+    
+    // absolute (pinned to the world) x and y
+    this.worldX = x
+    this.worldY = y
+    
+    // width and height for drawing purposes
+    this.width = width
+    this.height = height
+    
+    // width and height for collision purposes (AKA hitbox)
+    this.colWidth = width
+    this.colHeight = height
+    
+    // hitbox offset
+    this.colXOff = 0
+    this.colYOff = 0
+    
+    // collision layers
+    this.colLayers = colLayers
+    
+    // name of the entity
+    this.name = name
+    this.nameCol = color
+    
+    // push this instance to entity list
+    entities.push(this)
+  end
+  
+  getCollidingTiles = function(map)
+    local tiles = []
+    tiles.push(getTileAt(this.worldX+this.colXOff+this.colWidth/2, this.worldY+this.colYOff+this.colHeight/2, map))
+    tiles.push(getTileAt(this.worldX+this.colXOff-this.colWidth/2, this.worldY+this.colYOff+this.colHeight/2, map))
+    tiles.push(getTileAt(this.worldX+this.colXOff-this.colWidth/2, this.worldY+this.colYOff-this.colHeight/2, map))
+    tiles.push(getTileAt(this.worldX+this.colXOff+this.colWidth/2, this.worldY+this.colYOff-this.colHeight/2, map))
+    return tiles
+  end // returns a list of all colliding tiles at corners of hitbox within given map
+  
+  draw = function()
+    // draw shadow
+    screen.drawSprite("shadow", this.worldX-cameraX+3, this.worldY-cameraY-this.height/2+5, this.width, this.height/2)
+    // draw entity
+    screen.drawSprite(this.spr, this.worldX-cameraX, this.worldY-cameraY, this.width, this.height)
+    // draw hitbox
+    if debug then
+      screen.fillRect(this.worldX+this.colXOff-cameraX, this.worldY+this.colYOff-cameraY, this.colWidth, this.colHeight, "#f00a")
+      screen.drawRect(this.worldX+this.colXOff-cameraX, this.worldY+this.colYOff-cameraY, this.colWidth, this.colHeight, "#600a")
+    end
+  end
+end
+
+
+
+end()
+
+
+
+// file: classes/entities/player.ms
+function()
+Player = class extends Entity
+  constructor = function(spr, x, y, colLayers, name)
+    // sprite info
+    this.char = spr
+    this.status = "idle"
+    
+    // inherit from Entity
+    super("characters/"+this.char+"/"+this.status, x, y, 20, 20, colLayers, name, "#0a0")
+    
+    // edit hitbox to surround feet
+    this.colHeight = this.height/8
+    this.colYOff -= this.height/2-this.height/16
+    this.colWidth = this.width*0.8
+    
+    // set energy to max
+    this.energy = characters[spr].energyMax
+    
+    // set "exausted" cooldown
+    this.exausted = 0
+  end
+  
+  update = function()
+    // initiate local variables
+    local stats = characters[this.char]
+    local dx = 0
+    local dy = 0
+    
+    if controlsActive then
+      // process arrow/WASD inputs
+      this.status = "idle"
+      if keyboard[keybinds.down] then
+        dy -= 1
+        this.status = "walk_down"
+      end
+      if keyboard[keybinds.up] then
+        dy += 1
+        this.status = "walk_up"
+      end
+      if keyboard[keybinds.left] then
+        dx -= 1
+        this.status = "walk_left"
+      end
+      if keyboard[keybinds.right] then
+        dx += 1
+        this.status = "walk_right"
+      end
+    end
+    
+    // set sprite
+    this.spr = "characters/"+this.char+"/"+this.status
+    
+    // do some math to move character
+    if keyboard[keybinds.dash] and this.energy <= 0 then
+      this.exausted = 30
+    end
+    dashing = keyboard[keybinds.dash] and this.exausted <= 0
+    if dist2d(0, 0, dx, dy) > 0 then
+      ang = dirTo(0, 0, dx, dy)
+      // move horizontally
+      dx = cosd(ang)*stats.speed*(dashing*(stats.dashMult-1)+1)
+      this.worldX += dx
+      // if colliding, back up
+      while not this.walkable()
+        this.worldX += -sign(dx)*0.1
+      end
+      // do the same for vertically
+      dy = sind(ang)*stats.speed*(dashing*(stats.dashMult-1)+1)
+      this.worldY += dy
+      while not this.walkable()
+        this.worldY += -sign(dy)*0.1
+      end
+    end
+    
+    // Handle energy regen/consumption
+    moving = dx or dy
+    if dashing and moving then
+      this.energy -= 1
+    end
+    if not (dashing and moving) and this.energy < stats.energyMax then
+      if moving then
+        this.energy += stats.energyRegen
+      else
+        this.energy += stats.energyRegenRested
+      end
+    end
+    if not dashing and not moving and this.exausted > 0 and this.energy >= stats.energyMax then
+      this.exausted -= 1
+    end
+    
+    // Check if on a warp tile, and if so, warp
+    if warps[world.name] then
+      for warp in warps[world.name]
+        local tilePos = screenToMapSpace(this.worldX, this.worldY-10)
+        if tilePos.x == warp.warp_x and tilePos.y == warp.warp_y then
+          setWorld(warp.end_map)
+          local newPos = mapToScreenSpace(warp.end_x, warp.end_y)
+          this.worldX = newPos.x
+          this.worldY = newPos.y+10
+        end
+      end
+    end
+  end
+  
+  walkable = function()
+    // loop through all tiles the player is colliding with
+    for tile in this.getCollidingTiles("base")
+      // check if colliding with a non-walkable tile
+      if not ([]+(tile+"").split("/")).contains("walkable") then
+        return false
+      end
+    end
+    // if not, return true
+    return true
+  end
+  
+  getStatuses = function()
+    local statuses = []
+    if this.exausted > 0 then
+      statuses.push("exausted")
+    end
+    return statuses
+  end
+end
+
+
+end()
+
+
+
+// file: classes/menu.ms
+function()
+Menu = class
+  constructor = function(name, drawFunc, updFunc, active)
+    this.name = name
+    this.drawFunc = drawFunc
+    this.updFunc = updFunc
+    this.active = active
+  end
+  
+  toggleActive = function()
+    this.active = not this.active
+  end
+  
+  update = function()
+    if keyboard.press[keybinds.exit_menu] or (mouse.press and pointInsideRect(screen.width/2-35, screen.height/2-35, 10, 10, mouse.x, mouse.y)) then
+      this.active = 0
+    end
+    if this.active then
+      this.updFunc(0, -9, screen.width-70, screen.height-70)
+    end
+  end
+  
+  draw = function()
+    if this.active then
+      screen.fillRoundRect(0, 0, screen.width-50, screen.height-50, 5, "#666")
+      screen.drawRoundRect(0, 0, screen.width-50, screen.height-50, 5, "#333")
+      this.drawFunc(0, -9, screen.width-70, screen.height-76)
+      screen.drawText(name, 0, screen.height/2-35, 20, "#ccc")
+      screen.fillRoundRect(screen.width/2-35, screen.height/2-35, 10, 10, 1, "#f33")
+      screen.drawText("X", screen.width/2-35, screen.height/2-35, 10, "#600")
+    end
+  end
+end
+end()
+
+
+
+// file: classes/textfield.ms
+function()
+TextField = class
+  constructor = function()
+    this.text = ""
+    this.chars = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", ",", ".", "<", ">", "/", "?", ";", "'", ":", "\"", "{", "[", "]", "}", "\\", "|", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "~", "`", "=", "-", "_", "+", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
+    this.blockedChars = []
+    this.hold = object end
+    this.cd = 0
+    this.x = 0
+  end
+
+  update = function()
+    screen.setFont("monospace")
+    this.x += this.held("ARROWRIGHT")-this.held("ARROWLEFT")+keyboard.END*1000-keyboard.HOME*1000
+    this.x = min(max(0, this.x), this.text.length)
+    if this.held("BACKSPACE") and this.x > 0 then
+      this.text = this.text.substring(0, this.x-1)+this.text.substring(this.x, this.text.length)
+      this.x -= 1
+    end
+    if this.held("DELETE") and this.x<this.textlength then
+      this.text = this.text.substring(0, this.x)+this.text.substring(this.x+1, this.text.length)
+    end
+    local add = ""
+    for char in this.chars
+      if this.held(char) and not this.blockedChars.contains(char) then
+        if keyboard.SHIFT then
+          add = char.toUpperCase()
+        else
+          add = char.toLowerCase()
+        end
+      end
+    end
+    if this.held("SPACE") or this.held("TAB") then
+      add = " "
+    end
+    if add then
+      this.text = this.text.substring(0, this.x)+add+this.text.substring(this.x, this.text.length)
+      x += 1
+    end
+    cd += 1
+    screen.setFont("BitCell")
+  end
+
+  getText = function()
+    return this.text
+  end
+
+  held = function(char)
+    if keyboard[char] then
+      this.hold[char] += 1
+    else
+      this.hold[char] = 0
+    end
+    if keyboard.press[char] or this.hold[char] > 30 and this.cd >= 3 then
+      this.cd = 0
+      return true
+    end
+    return false
+  end
+end
+
+
+end()
+
+
+
+// file: controltoggling.ms
+function()
+blockControl = function(reason)
+  controlBlockers[reason] = true
+  checkBlockedControls()
+end
+
+unblockControl = function(reason)
+  controlBlockers[reason] = false
+  checkBlockedControls()
+end
+
+checkBlockedControls = function()
+  controlsActive = true
+  for blocker in controlBlockers
+    if controlBlockers[blocker] then
+      controlsActive = false
+    end
+  end
+end
+end()
+
+
+
+// file: data/characters.ms
+function()
+/*
+List of characters (and their stats)
+
+speed = base walking speed
+dashMult = speed multiplier while dashing
+energyMax = maximum energy
+energyRegen = energy regen while walking
+energyRegenRested = energy regen while still
+*/
+
+characters = object
+  joe = object
+    speed = 1.5
+    dashMult = 2
+    energyMax = 300
+    energyRegen = 0.5
+    energyRegenRested = 1
+  end
+  sophie = object
+    speed = 1.3
+    dashMult = 2.5
+    energyMax = 250
+    energyRegen = 0.5
+    energyRegenRested = 2
+  end
+  wolfie = object
+    speed = 1.0
+    dashMult = 1.5
+    energyMax = 550
+    energyRegen = 1
+    energyRegenRested = 4
+  end
+  alien = object
+    speed = 1.7
+    dashMult = 3
+    energyMax = 50
+    energyRegen = 1
+    energyRegenRested = 1
+  end
+  botbot = object
+    speed = 2
+    dashMult = 2
+    energyMax = 400
+    energyRegen = 2
+    energyRegenRested = 2
+  end
+  ghosty = object
+    speed = 1.5
+    dashMult = 2
+    energyMax = 300
+    energyRegen = 0.5
+    energyRegenRested = 1
+  end
+  brainy = object
+    speed = 1.5
+    dashMult = 2
+    energyMax = 600
+    energyRegen = 1.5
+    energyRegenRested = 2.5
+  end  
+  piratesam = object
+    speed = 1.6
+    dashMult = 1.7
+    energyMax = 400
+    energyRegen = 0.5
+    energyRegenRested = 1
+  end  
+end
+end()
+
+
+
+// file: data/emojis.ms
+function()
+// starting emojis
+
+emojis = [
+  "face/happy",
+  "face/neutral",
+  "face/sad"
+]
+end()
+
+
+
+// file: data/itempickups.ms
+function()
+// WIP
+end()
+
+
+
+// file: data/keybinds.ms
+function()
+keybinds = object
+  up = "UP"
+  down = "DOWN"
+  left = "LEFT"
+  right = "RIGHT"
+  dash = "SHIFT"
+  submit = "ENTER"
+  open_chat = "ENTER"
+  exit_menu = "ESCAPE"
+  minimap = "M"
+end
+end()
+
+
+
+// file: data/menus.ms
+function()
+menuDraw = object
+  options = function(x, y, width, height)
+    screen.fillRect(x, y, width, height, "#000")
+    local optWidth = max(100, (width-10)/floor((width-10)/100))
+    local optHeight = max(20, height/floor(height/10))
+    for optX = x-width/2+optWidth/2 to x+(width-10)/2-optWidth/2 by optWidth
+      for optY = y+height/2-optHeight/2 to y-height/2+pptHeight/2 by -optHeight
+        screen.drawRect(optX, optY, optWidth, optHeight, "#fff")
+      end
+    end
+  end
+  keybinds = function(x, y, width, height) end
+  emoji = function(x, y, width, height) end
+  language = function(x, y, width, height) end
+end
+
+menuUpd = object
+  options = function(x, y, width, height)
+    
+  end
+  keybinds = function(x, y, width, height) end
+  emoji = function(x, y, width, height) end
+  language = function(x, y, width, height) end
+end
+end()
+
+
+
+// file: data/warptiles.ms
+function()
+/*
+set tiles on certain maps to link to other maps!
+
+warp_x = warp *tile* x position, not pixel x position.
+warp_y = same as above, but for y
+end_map = map to warp to
+end_x = player *tile* x position after warping
+end_y = same as above but for y
+*/
+
+warps = object
+  main = [
+    // warps for the main map
+    object
+      // into house1
+      warp_x = 30
+      warp_y = 37
+      end_map = "house1"
+      end_x = 4
+      end_y = 1
+    end
+    object
+      // into house2
+      warp_x = 34
+      warp_y = 19
+      end_map = "house2"
+      end_x = 6
+      end_y = 1
+    end    
+    object
+      // into ruin1
+      warp_x = 9
+      warp_y = 49
+      end_map = "ruin1"
+      end_x = 11
+      end_y = 1
+    end
+    object
+      // into alienbase1
+      warp_x = 6
+      warp_y = 25
+      end_map = "alienbase1"
+      end_x = 16
+      end_y = 1
+    end
+    object
+      // into alienbase2
+      warp_x = 60
+      warp_y = 10
+      end_map = "alienbase2"
+      end_x = 9
+      end_y = 1
+    end
+    object
+      // into tardis1
+      warp_x = 57
+      warp_y = 22
+      end_map = "tardis1"
+      end_x = 8
+      end_y = 8
+    end
+    object
+      // into phone booth
+      warp_x = 22
+      warp_y = 33
+      end_map = "phonebooth1"
+      end_x = 1
+      end_y = 1
+    end
+    object
+      // into teleporter1
+      warp_x = 20
+      warp_y = 52
+      end_map = "teleporter1"
+      end_x = 2
+      end_y = 7
+    end    
+    object
+      // into cowskull1
+      warp_x = 42
+      warp_y = 4
+      end_map = "cowskull1"
+      end_x = 2
+      end_y = 9
+    end    
+    object
+      // into tinkershed1
+      warp_x = 21
+      warp_y = 39
+      end_map = "tinkershed1"
+      end_x = 4
+      end_y = 1
+    end
+    object
+      // into tinkershed2
+      warp_x = 37
+      warp_y = 38
+      end_map = "tinkershed2"
+      end_x = 4
+      end_y = 1
+    end
+    object
+      // snowy mountain
+      warp_x = 52
+      warp_y = 57
+      end_map = "snowymountain"
+      end_x = 11
+      end_y = 7
+    end
+  ]
+  house1 = [
+    // warps for house1
+    object
+      // exit house
+      warp_x = 4
+      warp_y = 0
+      end_map = "main"
+      end_x = 30
+      end_y = 36
+    end
+  ]
+  house2 = [
+    // warps for house2
+    object
+      // exit house
+      warp_x = 6
+      warp_y = 0
+      end_map = "main"
+      end_x = 34
+      end_y = 18
+    end
+  ]
+  ruin1 = [
+    // warps for ruin1
+    object
+      // exit house
+      warp_x = 11
+      warp_y = 0
+      end_map = "main"
+      end_x = 9
+      end_y = 48
+    end
+  ]    
+  alienbase1 = [
+    // warps for alienbase1
+    object
+      // exit house
+      warp_x = 16
+      warp_y = 0
+      end_map = "main"
+      end_x = 8
+      end_y = 25
+    end
+  ]
+  alienbase2 = [
+    // warps for alienbase2
+    object
+      // exit house
+      warp_x = 9
+      warp_y = 0
+      end_map = "main"
+      end_x = 58
+      end_y = 9
+    end
+  ]  
+  tardis1 = [
+    // warps for tardis1
+    object
+      // exit tardis
+      warp_x = 25
+      warp_y = 21
+      end_map = "main"
+      end_x = 55
+      end_y = 21
+    end
+  ]  
+  phonebooth1 = [
+    // warps for phonebooth1
+    object
+      // exit phone booth
+      warp_x = 1
+      warp_y = 0
+      end_map = "main"
+      end_x = 23
+      end_y = 32
+    end
+  ]
+  teleporter1 =  [
+    // warps for teleporter1
+    object
+      // exit teleporter1
+      warp_x = 2
+      warp_y = 0
+      end_map = "main"
+      end_x = 51
+      end_y = 51
+    end
+  ]  
+  cowskull1 =  [
+    // warps for cowskull1
+    object
+      // exit cowskull1
+      warp_x = 5
+      warp_y = 2
+      end_map = "main"
+      end_x = 9
+      end_y = 46
+    end
+  ]  
+  tinkershed1 = [
+    // warps for tinkershed1
+    object
+      // exit to world
+      warp_x = 4
+      warp_y = 0
+      end_map = "main"
+      end_x = 21
+      end_y = 38
+    end
+    object
+      // exit to shed2
+      warp_x = 8
+      warp_y = 3
+      end_map = "tinkertunnel1"
+      end_x = 1
+      end_y = 1
+    end    
+  ]
+  tinkershed2 = [
+    // warps for tinkershed2
+    object
+      // exit to world
+      warp_x = 4
+      warp_y = 0
+      end_map = "main"
+      end_x = 37
+      end_y = 37
+    end
+    object
+      // exit to shed1
+      warp_x = 0
+      warp_y = 3
+      end_map = "tinkertunnel1"
+      end_x = 7
+      end_y = 3
+    end    
+  ]
+  tinkertunnel1 = [
+    // warps for tinkertunnel1
+    object
+      // exit to tinkershed1
+      warp_x = 0
+      warp_y = 1
+      end_map = "tinkershed1"
+      end_x = 7
+      end_y = 3
+    end
+    object
+      // exit to tinkershed2
+      warp_x = 8
+      warp_y = 3
+      end_map = "tinkershed2"
+      end_x = 1
+      end_y = 3
+    end    
+    object
+      // exit to tinkermaze0
+      warp_x = 2
+      warp_y = 4
+      end_map = "tinkermaze0"
+      end_x = 3
+      end_y = 1
+    end 
+  ]
+  tinkermaze0 = [
+    // warps for tinkermaze
+    object
+      // exit south
+      warp_x = 3
+      warp_y = 0
+      end_map = "tinkertunnel1"
+      end_x = 2
+      end_y = 3
+    end
+    object
+      // exit east
+      warp_x = 6
+      warp_y = 3
+      end_map = "tinkermaze0"
+      end_x = 1
+      end_y = 3
+    end    
+    object
+      // exit north
+      warp_x = 3
+      warp_y = 6
+      end_map = "tinkermaze1"
+      end_x = 3
+      end_y = 1
+    end
+    object
+      // exit west
+      warp_x = 0
+      warp_y = 3
+      end_map = "tinkermaze0"
+      end_x = 5
+      end_y = 3
+    end
+  ]  
+  tinkermaze1 = [
+    // warps for tinkermaze
+    object
+      // exit south
+      warp_x = 3
+      warp_y = 0
+      end_map = "tinkermaze0"
+      end_x = 3
+      end_y = 5
+    end
+    object
+      // exit east
+      warp_x = 6
+      warp_y = 3
+      end_map = "tinkermaze0"
+      end_x = 1
+      end_y = 3
+    end    
+    object
+      // exit north
+      warp_x = 3
+      warp_y = 6
+      end_map = "tinkermaze0"
+      end_x = 3
+      end_y = 1
+    end
+    object
+      // exit west
+      warp_x = 0
+      warp_y = 3
+      end_map = "tinkermaze2"
+      end_x = 5
+      end_y = 3
+    end
+  ]
+  tinkermaze2 = [
+    // warps for tinkermaze
+    object
+      // exit south
+      warp_x = 3
+      warp_y = 0
+      end_map = "tinkermaze3"
+      end_x = 3
+      end_y = 5
+    end
+    object
+      // exit east
+      warp_x = 6
+      warp_y = 3
+      end_map = "tinkermaze0"
+      end_x = 1
+      end_y = 3
+    end    
+    object
+      // exit north
+      warp_x = 3
+      warp_y = 6
+      end_map = "tinkermaze0"
+      end_x = 3
+      end_y = 1
+    end
+    object
+      // exit west
+      warp_x = 0
+      warp_y = 3
+      end_map = "tinkermaze0"
+      end_x = 5
+      end_y = 3
+    end
+  ]
+  tinkermaze3 = [
+    // warps for tinkermaze
+    object
+      // exit south
+      warp_x = 3
+      warp_y = 0
+      end_map = "tinkermaze0"
+      end_x = 3
+      end_y = 5
+    end
+    object
+      // exit east
+      warp_x = 6
+      warp_y = 3
+      end_map = "tinkermaze0"
+      end_x = 1
+      end_y = 3
+    end    
+    object
+      // exit north
+      warp_x = 3
+      warp_y = 6
+      end_map = "tinkermaze0"
+      end_x = 3
+      end_y = 1
+    end
+    object
+      // exit west
+      warp_x = 0
+      warp_y = 3
+      end_map = "tinkermaze4"
+      end_x = 5
+      end_y = 3
+    end
+  ]
+  tinkermaze4 = [
+    // warps for tinkermaze
+    object
+      // exit south
+      warp_x = 3
+      warp_y = 0
+      end_map = "tinkermaze0"
+      end_x = 3
+      end_y = 5
+    end
+    object
+      // exit east
+      warp_x = 6
+      warp_y = 3
+      end_map = "tinkermaze0"
+      end_x = 1
+      end_y = 3
+    end    
+    object
+      // exit north
+      warp_x = 3
+      warp_y = 6
+      end_map = "tinkermaze0"
+      end_x = 3
+      end_y = 1
+    end
+    object
+      // exit west
+      warp_x = 0
+      warp_y = 3
+      end_map = "tinkerlair"
+      end_x = 5
+      end_y = 1
+    end
+  ]
+  tinkerlair = [
+    // warps for tinkerlair
+    object
+      // exit to tinkertunnel1
+      warp_x = 6
+      warp_y = 1
+      end_map = "tinkertunnel1"
+      end_x = 1
+      end_y = 1
+    end
+  ]
+  snowymountain = [
+    object
+      // exit to main
+      warp_x = 22
+      warp_y = 1
+      end_map = "main"
+      end_x = 52
+      end_y = 56
+    end
+  ]
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end()
+
+
+
+// file: data/worlds.ms
+function()
+/*
+List of worlds (along with some metadata)
+
+background = background color
+tile_w = microstudio pixel tile width
+tile_h = microstudio pixel tile height
+*/
+
+worlds = object
+  main = object
+    background = "rgb(66,154,198)"
+    tile_w = 20
+    tile_h = 20
+    music = "microverse1"
+  end
+  desert_town = object
+    background = "rgb(255,217,142)"
+    tile_w = 25
+    tile_h = 25
+    music = "microverse1"
+  end
+  house1 = object
+    background = "rgb(0, 0, 0)"
+    tile_w = 20
+    tile_h = 20
+    music = "homesweethome1"
+  end
+  house2 = object
+    background = "rgb(0, 0, 0)"
+    tile_w = 20
+    tile_h = 20
+    music = "sweetsunday2"
+  end
+  ruin1 = object
+    background = "rgb(0, 0, 0)"
+    tile_w = 20
+    tile_h = 20
+    music = "microverse1"
+  end
+  alienbase1 = object
+    background = "rgb(0, 0, 0)"
+    tile_w = 20
+    tile_h = 20
+    music = "microversealiens1"
+  end
+  alienbase2 = object
+    background = "rgb(0, 0, 0)"
+    tile_w = 20
+    tile_h = 20
+    music = "microversealiens1"
+  end
+  tardis1 = object
+    background = "rgb(0, 0, 0)"
+    tile_w = 20
+    tile_h = 20
+    music = "tardis"
+  end
+  phonebooth1 = object
+    background = "rgb(38,113,0)"
+    tile_w = 22
+    tile_h = 22
+    music = "phonetime"
+  end
+  teleporter1 = object
+    background ="rgb(0,85,85)"
+    tile_w = 22
+    tile_h = 22
+    music = "tardis"
+  end    
+  cowskull1 = object
+    background ="rgb(227,193,126)"
+    tile_w = 22
+    tile_h = 22
+    music = "spooky"
+  end
+  tinkershed1 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "tinkering"
+  end   
+  tinkershed2 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "tinkering"
+  end 
+  tinkertunnel1 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "tinkering"
+  end
+  tinkermaze0 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "spooky"
+  end  
+  tinkermaze0 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "spooky"
+  end
+  tinkermaze0 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "spooky"
+  end
+  tinkermaze1 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "spooky"
+  end
+  tinkermaze2 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "spooky"
+  end
+  tinkermaze3 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "spooky"
+  end
+  tinkermaze4 = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "spooky"
+  end
+  tinkerlair = object
+    background ="rgb(23,13,28)"
+    tile_w = 22
+    tile_h = 22
+    music = "tinkering"
+  end
+  snowymountain = object
+    background = "rgb(20, 20, 200)"
+    tile_w = 50
+    tile_h = 50
+    music = "sweetsunday2"
+  end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end()
+
+
+
+// file: drawstatuses.ms
+function()
+drawStatuses = function(statuses, px, py)
+  local i = 0
+  for status in statuses
+    screen.drawSprite("ui/status/"+status, -5.5*(statuses.length-1)+11*i+px-cameraX, py-cameraY-20, 10, 10)
+    i += 1
+  end
+end
+end()
+
+
+
+// file: helpers.ms
+function()
+// A few useful functions
+
+lerp = function(a, b, amt)
+  return a*(1-amt)+b*amt
+end // linear interpolation
+
+clamp = function(num, l, h)
+  return min(max(min(l, h), num), max(l, h))
+end // clamp a number between a low and a high
+
+mod = function(num, lim)
+  return num-lim*floor(num/lim)
+end // True modulo, % is actually remainder
+
+sign = function(num)
+  return (num>0)-(num<0)
+end // Returns the sign of a number, 1 if positive, -1 if negative, 0 if zero
+
+map = function(num, l1, h1, l2, h2)
+  return (num-l1)*(h2-l2)/(h1-l1)+l2
+end // Maps a number from one range of values to another
+
+map2d = function(x, y, x1, y1, w1, h1, x2, y2, w2, h2)
+  return object
+    x = map(x, x1-w1/2, x1+w1/2, x2-w2/2, x2+w2/2)
+    y = map(y, y1-h1/2, y1+h1/2, y2-h2/2, y2+h2/2)
+  end
+end // Same as map, but on two axes
+
+dist2d = function(x1, y1, x2, y2)
+  return sqrt((x2-x1)^2+(y2-y1)^2)
+end // Get the distance between two points
+
+dirTo = function(x1, y1, x2, y2)
+  return atan2d(y2-y1, x2-x1)
+end // Get the angle from (x1, y1) to (x2, y2)
+
+screenToMapSpace = function(sx, sy)
+  local coords = object
+    x = floor((sx + world.draw_w / 2) / world.draw_w * maps[world.name+"/base"].width)
+    y = floor((sy + world.draw_h / 2) / world.draw_h * maps[world.name+"/base"].height)
+  end
+  return coords
+end // converts an xy position on the screen to coordinates in the map
+
+mapToScreenSpace = function(mx, my)
+  local coords = object
+    x = (mx / maps[world.name+"/base"].width) * world.draw_w - world.draw_w / 2
+    y = (my / maps[world.name+"/base"].height) * world.draw_h - world.draw_h / 2
+  end
+  return coords
+end // converts a map position to an xy position on the screen
+
+getTileAt = function(x, y, map)
+  local coords = screenToMapSpace(x, y)
+  return maps[world.name+"/"+map].get(coords.x, coords.y)
+end
+
+pointInsideRect = function(rx, ry, rw, rh, x, y)
+  return abs(rx-x)<rw/2 and abs(ry-y)<rh/2
+end // determines if a point is inside a rectanlge
+
+end()
+
+
+
+// file: main.ms
+function()
+init = function()
+  
+  // Init some stuff top defaults
+  entities = []
+  latency = 100
+  
+  // debug mode toggle
+  debug = false
+  
+  // show minimap toggle
+  minimap = false  
+  
+  // register server connection
+  connection = new ServerConnection()
+  
+  // wait until server is connected
+  while connection.status != "connected"
+    screen.clear()
+    screen.drawText(connection.status, 0, 0, 50, "#fff")
+  end
+  
+  reconnecting = false
+  
+  // ping server to check latency    
+  every 1000 milliseconds do
+    timeAtLastPing = system.time()
+    connection.send(object
+      mType = "ping"
+    end)
+  end
+  
+  // set empty player list
+  serverPlayers = []
+  
+  // activate controls
+  controlsActive = true
+  controlBlockers = object end
+  
+  // setup player selection
+  playerSelected = false
+  p = []
+  for item in characters
+    p.push(item)
+  end
+  id = 0
+  pBlock = true
+  name = new TextField()
+  nameSelected = false
+  playerSelectFin = function()
+    // set up player stuff and exit player select
+    player = new Player(p[id], 0, 0, [], name.text)
+    selected = 1
+    playerSelected = true
+    name = 0
+    
+    // load world
+    setWorld("main")
+    
+    // set camera to player
+    cameraX = player.worldX
+    cameraY = player.worldY
+    
+    // tell server that a player joined
+    connection.send(object
+      mType = "join"
+      name = player.name
+    end)
+  end
+end
+
+update = function()
+  if not playerSelected then
+    // PLAYER SELECT
+    if nameSelected then
+      name.update()
+    end
+    displayName = "username"
+    if name.text then
+      displayName = name.text
+    end
+    if mouse.pressed and not pBlock then
+      pBlock = true
+      nameSelected = false
+      if pointInsideRect(0, -75, 75, 20, mouse.x, mouse.y) then
+        playerSelectFin()
+      elsif pointInsideRect(72.5, 25, 20, 30, mouse.x, mouse.y) then
+        id += 1
+      elsif pointInsideRect(-72.5, 25, 20, 30, mouse.x, mouse.y) then
+        id -= 1
+      elsif pointInsideRect(0, -40, screen.textWidth(displayName, 20)+10, 20, mouse.x, mouse.y) then
+        nameSelected = true
+      end
+      id = mod(id, p.length)
+    end
+    if not mouse.pressed then
+      pBlock = false
+    end
+    if keyboard.ENTER then
+      playerSelectFin()
+    end
+  else
+    // NORMAL UPDATE
+    
+    // update time
+    AMPM = ["AM", "PM"][(system.time()/1000/60/60)%24>=12]
+    hours = floor((system.time()/1000/60/60)%12)
+    minutes = floor((system.time()/1000/60)%60)
+    if (minutes+"").length < 2 then
+      minutes = "0"+minutes
+    end
+    
+    // update player
+    player.update()
+  
+    if not usingChat then  
+      // toggle debug
+      if keyboard.press["\\"] then
+        debug = not debug
+      end
+      
+      // toggle minimap
+      if keyboard.press[keybinds.minimap] then
+        minimap = not minimap
+      end      
+      
+      // toggle sound
+      if keyboard.press.O then
+        if mv1 then
+          mv1.stop()
+          mv1 = 0
+        else
+          mv1 = audio.playMusic(world.music, .3, 1)
+        end
+      end
+    end
+    
+    // update UI
+    updateUI()
+    
+    // focus camera on player (smooth scroll) if player is on the same map
+    if not mapChanged then
+      cameraX = lerp(player.worldX, cameraX, .94)
+      cameraY = lerp(player.worldY, cameraY, .94)
+    else
+      // otherwise, teleport camera
+      cameraX = player.worldX
+      cameraY = player.worldY
+      mapChanged = false
+    end
+    
+    // if disconnected
+    if connection.status == "disconnected" and not reconnecting then
+      // wait a second
+      reconnecting = true
+      after 1000 milliseconds do
+        // if still disconnected, reconnect
+        if connection.status == "disconnected" then
+          connection.close()
+          connection = new ServerConnection()
+        end
+        reconnecting = false
+      end
+    end
+    
+    // send player to server
+    connection.send(object
+      mType = "player"
+      upd = object
+        spr = player.spr
+        worldX = player.worldX
+        worldY = player.worldY
+        map = world.name
+        statuses = player.getStatuses()
+        name = player.name
+        nameCol = "#444"
+        width = 20
+        height = 20
+        chatting = chatEntry.length>0
+        emoji = emojiSel.emoji
+      end
+    end)
+    
+    // handle incoming messages
+    handleMessages()
+  end
+  handleChatMessages()
+end
+
+draw = function()
+  if not playerSelected then
+    // PLAYER SELECTION
+    
+    screen.clear()
+    screen.drawSprite("characters/"+p[id]+"/idle", 0, 30, 100, 100)
+    screen.drawText(">", 75, 30, 50, "#fff")
+    screen.drawText("<", -70, 30, 50, "#fff")
+    screen.setAlpha(0.6)
+    if pointInsideRect(0, -40, screen.textWidth(displayName, 20)+10, 20, mouse.x, mouse.y) then
+      screen.setAlpha(1)
+    end
+    if nameSelected then
+      screen.setAlpha(0.8)
+    end
+    screen.fillRoundRect(0, -40, screen.textWidth(displayName, 20)+10, 20, 100, "#aaa")
+    screen.drawText(displayName, 0, -40, 20, "#fff")
+    screen.setAlpha(0.6)
+    if pointInsideRect(0, -75, 75, 20, mouse.x, mouse.y) then
+      screen.setAlpha(1)
+    end
+    screen.fillRoundRect(0, -75, 75, 20, 2, "#0f0")
+    screen.setLineWidth(2)
+    screen.drawRoundRect(0, -75, 75, 20, 2, "#070")
+    screen.drawText("Select", 0, -74, 20,"rgb(255,255,255)")
+    screen.setAlpha(1)
+  else
+    // NORMAL DRAW
+    
+    // reset drawing modifiers
+    screen.setDrawAnchor(0, 0)
+    screen.setLineWidth(1)
+    screen.setAlpha(1)
+    
+    // clear the screen
+    screen.clear(world.background)
+    
+    // draw base map (floor and walls)
+    screen.drawMap(world.name+"/base", -cameraX, -cameraY, world.draw_w, world.draw_h)
+    
+    drawPlayersOrdered()
+    
+    // draw top map (roofs and stuff)
+    screen.drawMap(world.name+"/top", -cameraX, -cameraY, world.draw_w, world.draw_h)
+
+    // draw minimap
+    if minimap then drawMiniMap() end
+
+    // if debug on, draw warp tiles
+    if debug then
+      screen.setLineWidth(1)
+      for warp in warps[world.name]
+        local warpPos = mapToScreenSpace(warp.warp_x, warp.warp_y)
+        screen.fillRect(warpPos.x-cameraX+world.tile_w/2, warpPos.y-cameraY+world.tile_h/2, world.tile_w, world.tile_h, "#0f0a")
+        screen.drawRect(warpPos.x-cameraX+world.tile_w/2, warpPos.y-cameraY+world.tile_h/2, world.tile_w, world.tile_h, "#060a")
+      end
+      // and also draw a square tile at mouse, with coords
+      local mpos = screenToMapSpace(mouse.x+cameraX, mouse.y+cameraY)
+      local spos = mapToScreenSpace(mpos.x, mpos.y)
+      screen.drawRect(spos.x+world.tile_w/2-cameraX, spos.y+world.tile_h/2-cameraY, world.tile_w, world.tile_h, "#000")
+      screen.drawText(mpos.x+", "+mpos.y, spos.x+world.tile_w/2-cameraX, spos.y+world.tile_h/2-cameraY, 7, "#fff")
+    end
+    
+    // draw UI
+    drawUI()
+    
+    // show connection status
+    screen.setAlpha(1)
+    screen.setDrawAnchor(1, -1)
+    screen.drawText(connection.status, screen.width/2, -screen.height/2, 20, object
+      connecting = "#ff0"
+      connected = "#0f0"
+      disconnected = "#f00"
+    end[connection.status])
+    screen.drawText(latency+" ms latency", screen.width/2, -screen.height/2+13, 15, "#555")
+    
+    // draw time
+    screen.drawText(hours+":"+minutes+" "+AMPM, screen.width/2, -screen.height/2+30, 25, "#fff")
+  end
+end
+
+drawPlayersOrdered = function()
+  local list = [player]
+  for p in serverPlayers
+    if world.name == p.map then
+      list.push(p)
+    end
+  end
+  
+  list.sortList(function(a,b) b.worldY-a.worldY end)
+  
+  for p in list
+    if p == player then
+      player.draw()
+    else
+      screen.drawSprite("shadow", p.worldX-cameraX+3, p.worldY-cameraY-5, 20)
+      screen.drawSprite(p.spr, p.worldX-cameraX, p.worldY-cameraY, 20, 20)
+    end
+  end
+end
+end()
+
+
+
+// file: minimap.ms
+function()
+
+drawMiniMap = function()
+  
+  // based on 60x60 miniMap
+  mapX  = screen.width/2-35   // on screen centre
+  mapY  = screen.height/2-35
+  mapW  = world.draw_w        // map width in pixels
+  mapH  = world.draw_h
+  mapAR = mapW/mapH           // map aspect ratio
+  // calculate x/y scale
+  mapSX = if mapAR<1 then 60*mapAR else 60 end
+  mapSY = if mapAR>1 then 60/mapAR else 60 end
+  // draw minimap  
+  screen.drawRect(mapX,mapY,60,60,"#000")
+  screen.fillRect(mapX,mapY,60,60,world.background)
+  screen.drawMap(world.name+"/base",mapX,mapY,mapSX,mapSY)
+  screen.drawMap(world.name+"/top" ,mapX,mapY,mapSX,mapSY)
+
+  // draw player position indicator
+  playerX = player.worldX
+  playerY = player.worldY
+  posSX   = mapW/mapSX          // position scale
+  posSY   = mapH/mapSY
+  markerX = playerX/posSX+mapX
+  markerY = playerY/posSY+mapY
+  screen.drawSprite("ui/marker",markerX,markerY,8,8)  
+  
+end      
+end()
+
+
+
+// file: playerselect.ms
+function()
+
+end()
+
+
+
+// file: serverstuff/client/incoming.ms
+function()
+// handle incoming messages
+handleMessages = function()
+  for message in connection.messages
+    // server player updates
+    if message.mType == "players" then
+      serverPlayers = message.message
+    
+    elsif message.mType == "chat" then
+      // identified, but already handled
+    
+    elsif message.mType == "ping" then
+      if latency then
+        latency = lerp(latency, system.time()-timeAtLastPing)
+      else
+        latency = system.time()-timeAtLastPing
+      end
+    
+    // else, print the message
+    else
+      print("Unidentified server message:")
+      print(message)
+    end
+  end
+end
+
+// chat messages need to be handled at all times
+// backlog is sent before playerSelected is true
+handleChatMessages = function()
+  for message in connection.messages
+    // chat updates
+    if message.mType == "chat" then
+      // insert chat message
+      chatLog.insert(message.message)
+      // add 1 to unread and reset time for non-backlog messages
+      if not message.backlog then
+        chatLog[0].time = system.time()
+        unread += 1
+      end
+    end
+  end
+end
+end()
+
+
+
+// file: serverstuff/server/server.ms
+function()
+serverInit = function()
+  server = new Server()
+  players = object end
+  local chat = storage.get("chat_messages")
+  chat_messages = if chat then chat else [] end
+end
+
+serverUpdate = function()
+  // handle incoming messages
+  for incoming in server.messages
+    // user joins
+    if incoming.data.mType == "join" then
+      // send chat backlog to new user
+      sendChatBacklog(incoming.connection)
+      
+      // post chat notice
+      local notice = object
+        author = "SERVER"
+        time = system.time()
+        message = incoming.data.name + " just joined!"
+      end
+      for client in server.active_connections
+        client.send(object
+          mType = "chat"
+          message = notice
+          backlog = client.id == incoming.connection.id
+        end)
+      end
+      recordChatMessage(notice)
+      
+      // log join
+      print(incoming.data.name+" just joined!")
+    end
+    
+    // latency checks
+    if incoming.data.mType == "ping" then
+      incoming.connection.send(object
+        mType = "ping"
+      end)
+    end
+    
+    // player updates
+    if incoming.data.mType == "player" then
+      players[incoming.connection.id] = incoming.data.upd
+      for client in server.active_connections
+        local sentList = []
+        for attr in players
+          // weird condition, but != didn't work
+          if abs(attr-client.id) > 0 then
+            sentList.push(players[attr])
+          end
+        end
+        client.send(object
+          mType = "players"
+          message = sentList
+        end)
+      end
+    end
+    
+    // user sends a message
+    if incoming.data.mType == "chat" then
+      print("chat message by "+incoming.data.message.author+": "+incoming.data.message.message)
+      for client in server.active_connections
+        if client.id != incoming.connection.id then
+          // send chat updates to everyone else
+          client.send(object
+            mType = "chat"
+            message = incoming.data.message
+          end)
+        end
+      end
+      recordChatMessage(incoming.data.message)
+    end
+  end
+  
+  // handle player disconnects (has to be handled differently, so it works even if a player force closes microVerse)
+  for client in server.closed_connections
+    print("Aww, "+players[client.id].name+" just left D:")
+    // post chat notice
+    local notice = object
+      author = "SERVER"
+      time = system.time()
+      message = players[client.id].name + " just left D:"
+    end
+    for notify in server.active_connections
+      notify.send(object
+        mType = "chat"
+        message = notice
+      end)
+    end
+    recordChatMessage(notice)
+    // remove player from object
+    local tempObj = object end
+    for id in players
+      if abs(id-client.id) > 0 then
+        tempObj.push(players[id])
+      end
+    end
+    players = tempObj
+  end
+end
+
+recordChatMessage = function(message)
+  chat_messages.push(message)
+  while chat_messages.length > 5
+    chat_messages.removeAt(0)
+  end
+  storage.set("chat_messages",chat_messages)
+end
+
+sendChatBacklog = function(client)
+  for m in chat_messages
+    client.send(object
+      mType = "chat"
+      message = m
+      backlog = 1
+    end)
+  end
+end
+end()
+
+
+
+// file: setworld.ms
+function()
+setWorld = function(name)
+  world = object
+    name = name
+    background = worlds[name].background
+    tile_w = worlds[name].tile_w
+    tile_h = worlds[name].tile_h
+    draw_w = worlds[name].tile_w*maps[name+"/base"].width
+    draw_h = worlds[name].tile_h*maps[name+"/base"].height
+  end
+  
+  // stop music if running
+  if mv1.type then
+    mv1.stop()
+  end
+  
+  // setup music
+  mv1 = audio.playMusic(worlds[name].music, .3, 1 )
+  
+  // notify that the map was changed
+  mapChanged = true
+end
+end()
+
+
+
+// file: todo.ms
+function()
+/*
+Add stuff here! Any planned feature you think of but haven't
+implimented yet.
+
+------------URGENT------------
+(Bugfixes and stuff needed ASAP)
+
+------------Normal------------
+(Regular planned features)
+
+- emote system (preferably select emotes in options then
+  send emotes with emote wheel, activated with right click)
+- inventory (top-right hotbar going down, expand with I or button)
+- settings menu
+- translation menu
+- keybinds menu
+
+-------------Ideas-------------
+(Ideas that may or may not eventually be worked on)
+
+- user authentication & progress save?
+- password hashing, w/ above
+
+-------------Work in progress--
+
+(TinkerSmith's WIP)
+  - Tinkershed gfx remake
+  - more 'shed' furniture
+  - need better color palette
+  - add 'maze' (DONE)
+
+- remake minimap:
+  - take map ratio into account for non-square maps (DONE)
+  - add player position marker (DONE)
+
+
+*/
+end()
+
+
+
+// file: ui.ms
+function()
+usingChat = false
+chatLog = []
+chatEntry = new TextField()
+maxChatLength = 8
+menuList = false
+menu = 0
+menus = object
+  options = 30
+  keybinds = 52
+  emoji = 74
+  language = 96
+end
+emojiSel = object
+  x = 0
+  y = 0
+  on = false
+  selected = 0
+  emoji = 0
+  emojiTime = 0
+end
+unread = 0
+
+// MENU CODE COMMENTED FOR PUBLIC BETA
+
+updateUI = function()
+  // TEMPORARY, REMOVE LATER
+  if menu then
+    menu.drawFunc = menuDraw[menu.name]
+    menu.updFunc = menuUpd[menu.name]
+  end
+  
+  // chat stuff
+  if usingChat then
+    // reset unread
+    unread = 0
+    
+    // update chat
+    chatEntry.blockedChars = [keybinds.chat]
+    chatEntry.update()
+    
+    // send message
+    if keyboard.press[keybinds.submit] then
+      if chatEntry.text.length > 0 then
+        local sentChat = object
+          author = player.name
+          time = system.time()
+          message = chatEntry.text
+        end
+        chatLog.insert(sentChat)
+        connection.send(object
+          mType = "chat"
+          message = sentChat
+        end)
+        chatEntry.text = ""
+      else
+        setChatActive(false)
+      end
+    end
+    
+    // close chat
+    if mouse.press or keyboard.press[keybinds.exit_menu] then
+      setChatActive(false)
+    end
+  else
+    // open chat
+    if keyboard.press[keybinds.open_chat] and not usingChat then
+      setChatActive(true)
+    end
+  end
+  
+  // force a limit (8) on the length of the chat log
+  while chatLog.length > maxChatLength
+    chatLog.removeAt(chatLog.length-1)
+  end
+  
+  // emoji selector
+  if mouse.right then
+    if not emojiSel.on then
+      emojiSel.x = mouse.x
+      emojiSel.y = mouse.y
+    end
+    emojiSel.on = true
+    // do some math to find out what emoji is selected
+    emojiSel.selected = mod(floor((180-(atan2d(mouse.y-emojiSel.y, mouse.x-emojiSel.x)+(180-(90+360/emojis.length/2))))/(360/emojis.length)), emojis.length)
+  else
+    if emojiSel.on then
+      emojiSel.emoji = emojis[emojiSel.selected]
+      emojiSel.emojiTime = 120
+    end
+    emojiSel.on = false
+  end
+  if emojiSel.emojiTime >= 0 then
+    emojiSel.emojiTime -= 1
+  else
+    emojiSel.emoji = 0
+  end
+  
+  // handle menu items
+  if mouse.press and abs(mouse.x+screen.width/2-10) < 10 then
+    // custom made function to stop copying code
+    local checkButton = function(height)
+      return abs(mouse.y+screen.height/2-height) < 10
+    end
+    
+    // toggle menu list
+    if checkButton(10) then
+      menuList = not menuList
+    end
+    
+    // check if menu button is pressed
+    if menuList then
+      for m in menus
+        // if button pressed
+        if checkButton(menus[m]) then
+          if menu.name != m then
+            // then replace menu
+            menu = new Menu(m, menuDraw[m], menuUpd[m], 1)
+          else
+            // unless the menu is the same, in which case toggle
+            menu.toggleActive()
+          end
+        end
+      end
+    end
+  end
+  
+  // // update menu
+  if menu then
+    menu.update()
+    blockControl("menu")
+  else
+    unblockControl("menu")
+  end
+end
+
+drawUI = function()
+  // draw statuses
+  drawStatuses(player.getStatuses(), player.worldX, player.worldY)
+  for p in serverPlayers
+    if p.map == world.name then
+      drawStatuses(p.statuses, p.worldX, p.worldY)
+    end
+  end
+  
+  // draw names above entities & server players
+  for entity in entities+serverPlayers
+    if (not entity.map) or entity.map == world.name then
+      screen.drawText(entity.name, entity.worldX-cameraX, entity.worldY-cameraY+entity.height, entity.width, entity.nameCol)
+      screen.setLineWidth(0.2)
+      screen.drawTextOutline(entity.name, entity.worldX-cameraX, entity.worldY-cameraY+entity.height, entity.width, "#fff")
+    end
+  end
+  
+  // chat icon
+  if chatEntry.text.length > 0 then
+    screen.drawSprite("ui/chatting", player.worldX-cameraX+12, player.worldY-cameraY+7, 10, 10)
+  end
+  for p in serverPlayers
+    if p.map == world.name and p.chatting then
+      screen.drawSprite("ui/chatting", p.worldX-cameraX+12, p.worldY-cameraY+7, 10, 10)
+    end
+  end
+  
+  // emoji
+  if emojiSel.emojiTime >= 0 then
+    screen.drawSprite("ui/emotes/"+emojiSel.emoji, player.worldX-cameraX+22, player.worldY-cameraY+7, 10, 10)
+  end
+  for p in serverPlayers
+    if p.map == world.name and p.emoji != 0 then
+      screen.drawSprite("ui/emotes/"+p.emoji, p.worldX-cameraX+22, p.worldY-cameraY+7, 10, 10)
+    end
+  end
+  
+  // draw energy bar
+  if player.energy < characters[player.char].energyMax then
+    screen.setDrawAnchor(-1, 0)
+    screen.setLineWidth(3)
+    screen.fillRoundRect(-100, -screen.height/2+20, 200*(player.energy/characters[player.char].energyMax), 20, 3, "#55f")
+    screen.drawRoundRect(-100, -screen.height/2+20, 200, 20, 3, "#00f")
+    screen.setDrawAnchor(0, 0)
+    screen.drawSprite("ui/energy", 0, -screen.height/2+20, 15, 15)
+  end
+  
+  // draw chat stuff
+  if usingChat then
+    screen.setFont("monospace")
+    screen.setAlpha(0.6)
+    screen.setDrawAnchor(-1,0)
+    screen.fillRect(-screen.width/2+2, 60, 175, 90,"rgb(45,45,45)")
+    screen.setAlpha(1)
+    screen.setDrawAnchor(0,0)
+    // chat bar
+    screen.setDrawAnchor(-1,0)
+    screen.setAlpha(0.6)
+    if chatEntry.text == "" then
+      screen.drawText("say something...", -screen.width/2+4, 92, 7, "#000")
+      screen.fillRect(-screen.width/2+2, 92, 175, 12,"rgb(120,120,120)")
+    else
+      screen.fillRect(-screen.width/2+2, 92, 175, 12,"rgb(130,130,130)")
+      screen.setAlpha(0.9)
+      screen.setDrawAnchor(-1,0)
+      screen.drawText(chatEntry.text, -screen.width/2+4, 92, 7, "#000")
+    end
+    // draw cursor
+    if chatEntry.cd%16<8 then // make cursor blink
+      screen.fillRect(-screen.width/2+4+screen.textWidth(chatEntry.text, 7)/chatEntry.text.length*chatEntry.x, screen.height/2-8, 1, 8, "#fff")
+    end
+    screen.setAlpha(1)
+    screen.setDrawAnchor(0,0)
+  
+    // chat log
+    screen.setDrawAnchor(-1, 0)
+    local index = 1
+    local timeAtLastChat = chatLog[0].time
+    local t = 1-min((system.time()-timeAtLastChat)/300, 1) // to animate after a new message is recieved
+    t = (1-cos(t*PI))/2 // cosine smoothing
+    for chat in chatLog
+      local chatHours = floor((chat.time/1000/60/60)%12)
+      local chatMinutes = floor((chat.time/1000/60)%60)
+      if (chatMinutes+"").length < 2 then
+        chatMinutes = "0"+chatMinutes
+      end
+      local chatAMPM = ["AM", "PM"][(chat.time/1000/60/60)%24>=12]
+      if index == 1 then // last chat shouldn't be animated
+        screen.setAlpha(1)
+        screen.drawText("("+chatHours+":"+chatMinutes+" "+chatAMPM+") "+chat.author+": "+chat.message, -screen.width/2 + 4, 11+(index)*10, 5, "#fff")
+      elsif index == maxChatLength then // fade out last text
+        screen.setAlpha(t*0.6)
+        screen.drawText("("+chatHours+":"+chatMinutes+" "+chatAMPM+") "+chat.author+": "+chat.message, -screen.width/2 + 4, 11+(index-t)*10, 5, "#fff")
+      else
+        screen.setAlpha(0.6)
+        screen.drawText("("+chatHours+":"+chatMinutes+" "+chatAMPM+") "+chat.author+": "+chat.message, -screen.width/2 + 4, 11+(index-t)*10, 5, "#fff")
+      end
+      index += 1
+    end
+    screen.setFont("BitCell")
+  else
+    // draw prompt to open chat
+    lastchat = chatLog[0]
+    screen.setDrawAnchor(-1, 0)
+    screen.setAlpha(0.5)
+    screen.drawText(keybinds.open_chat.substring(0, 1)+keybinds.open_chat.substring(1, keybinds.open_chat.length).toLowerCase()+" - open chat",-screen.width/2+3, 88, 8, "#000")    
+    screen.fillRect(-screen.width/2+2,94,100, 7,"rgb(45,45,45)")
+    if lastchat.message then
+      screen.drawText(lastchat.author+": "+lastchat.message, -screen.width/2+4, 95, 5, "#fff")    
+    end
+    
+    screen.setDrawAnchor()
+    screen.setAlpha(1)
+    // draw unread messages
+    if unread then
+      screen.fillRound(-screen.width/2+110, screen.height/2-6, 10, 10, "#f00")
+      screen.drawText(unread, -screen.width/2+110, screen.height/2-6, 10/(unread+"").length, "#fff")
+    end
+  end
+  screen.setAlpha(1)
+  screen.setDrawAnchor(0, 0)
+  
+  // emoji selector
+  if emojiSel.on then
+    screen.setLineWidth(30)
+    screen.drawRound(emojiSel.x, emojiSel.y, 50, 50, "#555")
+    screen.setLineWidth(3)
+    local r = 90
+    local i = 0
+    for emoji in emojis
+      if emojiSel.selected == i then
+        screen.fillRound(emojiSel.x+cosd(r)*25, emojiSel.y+sind(r)*25, 30, 30, "#fff")
+      end
+      screen.drawSprite("ui/emotes/"+emoji, emojiSel.x+cosd(r)*25, emojiSel.y+sind(r)*25, 20, 20)
+      r -= 360/emojis.length
+      i += 1
+    end
+  end
+  
+  // menu selector button
+  screen.drawSprite("ui/menu/menu."+menuList, -screen.width/2+10, -screen.height/2+10, 20, 20)
+  
+  // menu buttons
+  if menuList then
+    for m in menus
+      screen.drawSprite("ui/menu/"+m, -screen.width/2+10, -screen.height/2+menus[m], 20, 20)
+    end
+    if menu.active then
+      screen.fillRect(-screen.width/2+10, -screen.height/2+menus[menu.name], 20, 20, "#fff5")
+    end
+  end
+  
+  // menu
+  if menu.active then
+    menu.draw()
+  end
+end
+
+setChatActive = function(active)
+  usingChat = active
+  if active then
+    blockControl("chat")
+  else
+    unblockControl("chat")
+  end
+end
+end()
+
+
+</script></html>
