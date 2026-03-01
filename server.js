@@ -9994,7 +9994,7 @@ for (const prop in this) {
 
 var fs = require("fs") ;
 fs.readFile("./config.json",(err,data)=> {
-  global.server_port = 3000 ;
+  global.server_port = process.env.PORT || 3000;
   if (! err) {
     console.info("config.json loaded") ;
     try {
