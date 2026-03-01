@@ -9990,7 +9990,48 @@ this.Terminal = class Terminal {
 
 // CÓDIGO PARA RENDER (sin dependencias externas)
 const http = require("http") ;
-http.createServer((req, res) => { res.writeHead(200) ; res.end("OK") ; }).listen(process.env.PORT || 3000) ;
+const fs = require("fs") ;
+const path = require("path") ;
+
+const MIME_TYPES = {
+  ".html": "text/html",
+  ".js":   "application/javascript",
+  ".css":  "text/css",
+  ".json": "application/json",
+  ".png":  "image/png",
+  ".jpg":  "image/jpeg",
+  ".gif":  "image/gif",
+  ".svg":  "image/svg+xml",
+  ".wav":  "audio/wav",
+  ".mp3":  "audio/mpeg",
+  ".ttf":  "font/ttf",
+  ".woff": "font/woff",
+  ".woff2":"font/woff2",
+} ;
+
+http.createServer((req, res) => {
+  // health check
+  if (req.url === "/ping") { res.writeHead(200) ; return res.end("OK") ; }
+
+  let filePath = path.join(__dirname, req.url === "/" ? "index.html" : req.url) ;
+  let ext = path.extname(filePath).toLowerCase() ;
+  let contentType = MIME_TYPES[ext] || "application/octet-stream" ;
+
+  fs.readFile(filePath, (err, data) => {
+    if (err) {
+      if (err.code === "ENOENT") {
+        res.writeHead(404) ;
+        res.end("Not found: " + req.url) ;
+      } else {
+        res.writeHead(500) ;
+        res.end("Server error") ;
+      }
+    } else {
+      res.writeHead(200, { "Content-Type": contentType }) ;
+      res.end(data) ;
+    }
+  }) ;
+}).listen(process.env.PORT || 3000) ;
 
 for (const prop in this) {
   global[prop] = this[prop] ;
