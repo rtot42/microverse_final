@@ -1,3 +1,13 @@
+const express = require("express");
+const app = express();
+const httpPort = process.env.PORT || 3000;
+
+// Esto mantiene a Render contento
+app.get("/", (req, res) => res.send("Server is running"));
+app.listen(httpPort, () => {
+  console.log("Render port detected: " + httpPort);
+});
+
 var window = global ;
 
 var start = function() {
