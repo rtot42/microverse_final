@@ -1,13 +1,3 @@
-const express = require("express");
-const app = express();
-const httpPort = process.env.PORT || 3000;
-
-// Esto mantiene a Render contento
-app.get("/", (req, res) => res.send("Server is running"));
-app.listen(httpPort, () => {
-  console.log("Render port detected: " + httpPort);
-});
-
 var window = global ;
 
 var start = function() {
@@ -9998,24 +9988,16 @@ this.Terminal = class Terminal {
 
 
 
+// CÓDIGO PARA RENDER
+const express = require("express");
+const app = express();
+app.get("/", (req, res) => res.send("OK"));
+app.listen(process.env.PORT || 3000);
+
 for (const prop in this) {
   global[prop] = this[prop] ;
 }
 
-var fs = require("fs") ;
-fs.readFile("./config.json",(err,data)=> {
-  global.server_port = process.env.PORT || 3000;
-  if (! err) {
-    console.info("config.json loaded") ;
-    try {
-      var config = JSON.parse(data) ;
-      global.server_port = config.port || 3000 ;
-    } catch (err) {
-      console.info("could not parse config file") ;
-    }
-  } else {
-    console.info("could not read config file") ;
-  }
-  console.info( "starting with port set to: "+global.server_port ) ;
-  start() ;
-}) ;
+global.server_port = process.env.PORT || 3000;
+start();
+console.log("Servidor iniciado en puerto: " + global.server_port);
